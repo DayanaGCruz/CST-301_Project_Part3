@@ -1,0 +1,208 @@
+Found reserved words:['package', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'public', 'class', 'private', 'public', 'static', 'extends', 'return', 'public', 'static', 'new', 'protected', 'return', 'return', 'public', 'static', 'void', 'public', 'static', 'void', 'public', 'static', 'void', 'final', 'new', 'public', 'static', 'void', 'public', 'static', 'void', 'final', 'new', 'public', 'static', 'void', 'public', 'static', 'void', 'final', 'new', 'public', 'static', 'void', 'public', 'static', 'return', 'new', 'protected', 'return', 'public', 'static', 'boolean', 'return', 'new', 'protected', 'boolean', 'return', 'public', 'static', 'extends', 'return', 'new', 'protected', 'return', 'public', 'static', 'return', 'new', 'public', 'static', 'return', 'if', 'return', 'else', 'return', 'public', 'static', 'super', 'super', 'return', 'private', 'static', 'class', 'private', 'final', 'private', 'final', 'private', 'final', 'private', 'boolean', 'public', 'this', 'this', 'this', 'public', 'super', 'return', 'this', 'public', 'super', 'return', 'this', 'public', 'void', 'extends', 'public', 'void', 'extends', 'private', 'void', 'if', 'try', 'finally', 'private', 'static', 'class', 'implements', 'private', 'final', 'private', 'final', 'private', 'final', 'private', 'final', 'private', 'boolean', 'public', 'this', 'this', 'this', 'this', 'public', 'void', 'extends', 'if', 'try', 'finally', 'public', 'void', 'extends', 'if', 'try', 'finally', 'private', 'static', 'class', 'implements', 'private', 'final', 'private', 'final', 'private', 'final', 'private', 'final', 'private', 'boolean', 'public', 'this', 'this', 'this', 'this', 'public', 'void', 'extends', 'if', 'try', 'finally', 'public', 'void', 'extends', 'extends', 'if', 'try', 'finally']
+Found variables:['org', 'jabref', 'gui', 'util', 'com', 'tobiasdiez', 'easybind', 'EasyBind', 'PreboundBinding', 'Subscription', 'javafx', 'beans', 'binding', 'BooleanBinding', 'ObjectBinding', 'StringBinding', 'property', 'ListProperty', 'Property', 'value', 'ChangeListener', 'ObservableValue', 'collections', 'css', 'PseudoClass', 'scene', 'Node', 'java', 'List', 'Map', 'function', 'Consumer', 'Function', 'BindingsHelper', 'includePseudoClassWhen', 'node', 'pseudoClass', 'Boolean', 'condition', 'changePseudoClass', 'pseudoClassStateChanged', 'subscription', 'subscribe', 'accept', 'getValue', 'T', 'U', 'ObservableList', 'map', 'source', 'mapper', 'Override', 'computeValue', 'apply', 'list', 'FXCollections', 'observableArrayList', 'addListener', 'observable', 'oldValue', 'newValue', 'setAll', 'A', 'B', 'bindBidirectional', 'propertyA', 'propertyB', 'mapAtoB', 'mapBtoA', 'updateA', 'newValueB', 'setValue', 'updateB', 'newValueA', 'BidirectionalBinding', 'getChangeListenerA', 'getChangeListenerB', 'bindContentBidirectional', 'BidirectionalListBinding', 'listProperty', 'mapToB', 'mapToList', 'updateList', 'newValueList', 'V', 'ObservableMap', 'BidirectionalMapBinding', 'constantOf', 'String', 'emptyString', 'forUI', 'UiThreadList', 'ifThenElse', 'other', 'conditionValue', 'subscribeFuture', 'subscriber', 'listener', 'obs', 'removeListener', 'updating', 'false', 'changedA', 'changedB', 'updateLocked', 'update', 'true', 'ListChangeListener', 'changed', 'onChanged', 'Change', 'c', 'MapChangeListener', 'mapProperty']
+Found node types:['CompilationUnitContext', 'PackageDeclarationContext', 'TERMINAL', 'QualifiedNameContext', 'ImportDeclarationContext', 'TypeDeclarationContext', 'ClassOrInterfaceModifierContext', 'ClassDeclarationContext', 'ClassBodyContext', 'ClassBodyDeclarationContext', 'ModifierContext', 'MemberDeclarationContext', 'ConstructorDeclarationContext', 'FormalParametersContext', 'ConstructorBodyContext', 'BlockContext', 'MethodDeclarationContext', 'TypeSpecContext', 'ClassOrInterfaceTypeContext', 'FormalParameterListContext', 'FormalParameterContext', 'VariableDeclaratorIdContext', 'TypeArgumentsContext', 'TypeArgumentContext', 'MethodBodyContext', 'BlockStatementContext', 'StatementContext', 'StatementExpressionContext', 'ExpressionContext', 'PrimaryContext', 'NonWildcardTypeArgumentsContext', 'TypeListContext', 'ExplicitGenericInvocationSuffixContext', 'ArgumentsContext', 'ExpressionListContext', 'LocalVariableDeclarationStatementContext', 'LocalVariableDeclarationContext', 'VariableDeclaratorsContext', 'VariableDeclaratorContext', 'VariableInitializerContext', 'GenericMethodDeclarationContext', 'TypeParametersContext', 'TypeParameterContext', 'CreatorContext', 'CreatedNameContext', 'TypeArgumentsOrDiamondContext', 'ClassCreatorRestContext', 'AnnotationContext', 'AnnotationNameContext', 'VariableModifierContext', 'PrimitiveTypeContext', 'LiteralContext', 'ParExpressionContext', 'FieldDeclarationContext', 'FinallyBlockContext']
+
+Imported classes:['javafx.scene.Node', 'javafx.beans.binding.BooleanBinding', 'javafx.css.PseudoClass', 'javafx.beans.binding.StringBinding', 'java.util.Map', 'javafx.beans.property.ListProperty', 'javafx.collections.*', 'java.util.List', 'java.util.function.Function', 'javafx.beans.property.Property', 'javafx.beans.value.ChangeListener', 'java.util.function.Consumer', 'javafx.beans.value.ObservableValue', 'javafx.beans.binding.ObjectBinding']
+Package names:['javafx.beans.value', 'javafx.collections', 'javafx.beans.property', 'java.util.function', 'javafx.beans.binding', 'javafx.css', 'java.util', 'javafx.scene']
+
+Could not retrieve documentation for com.tobiasdiez.easybind.PreboundBinding
+
+
+Description for javafx.scene.Node:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/scene/Node.html
+The Node class is a base class for scene graph nodes in JavaFX. It represents a set of tree data structures where each item is a "leaf" or a "branch" with zero or more sub-items. Branch nodes are of type Parent, while leaf nodes are classes such as Rectangle, Text, ImageView, etc. Each node can have a unique ID and can be styled using CSS. Nodes can also have transformations applied to them, such as translation, rotation, scaling, or shearing. The Node class provides variables for defining the geometry and location of the shape within its local coordinate space. Nodes also have bounding rectangles that describe their size and position. The Node class is part of the JavaFX 2.0 framework.
+Similarity Score: 0.9194
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+Label: User Interface 
+Reason: The description mentions that the Node class is a base class for scene graph nodes
+in JavaFX, which are used to define the visual and interactive elements of software applications, including forms,
+screens, and graphical controls. It explains that nodes can have transformations applied to them and can be
+styled using CSS. The description also mentions that nodes have bounding rectangles that describe their size and
+position, which is relevant to the visual layout of user interfaces. Additionally, the Node class is part
+of the JavaFX framework, which is commonly used for building user interfaces in Java applications. 
+
+
+
+Description for javafx.beans.binding.BooleanBinding:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/beans/binding/BooleanBinding.html
+Paraphrased Summary:
+The given code snippet describes an abstract class called BooleanBinding, which implements various interfaces such as Binding<Boolean>, Observable, ObservableBooleanValue, and ObservableValue<Boolean>. The class provides functionality for implementing a binding of a boolean value, including an invalidation scheme for tracking dependencies and recalculating the value when necessary. The computeValue() method needs to be implemented to determine the value based on the current state of the dependencies. Additionally, it references the DoubleBinding class as an example of how this base class can be extended.
+
+This response fits the category of a paraphrased summary as it provides a concise and accurate overview of the given code description without reference links or acknowledgements of prompts.
+Similarity Score: 0.9216
+Multithread: Support for concurrent execution and management of multiple threads within a software application or system.
+Label: Parser 
+Reason: The given code snippet describes the implementation of an abstract class called BooleanBinding, which involves
+parsing and interpreting code structures to determine the value based on the current state of dependencies. The
+code snippet mentions the need to implement the computeValue() method, which is responsible for determining the value
+based on the dependencies. Additionally, it references the DoubleBinding class as an example of how the BooleanBinding
+class can be extended, indicating the involvement of parsing and interpreting code structures. Therefore, the given code
+snippet fits the category of Parser. 
+
+
+Description for javafx.css.PseudoClass:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/css/PseudoClass.html
+The provided description is about the PseudoClass class in JavaFX 8.0, which represents a unique pseudo-class state and can be introduced into a JavaFX class by calling the method Node.pseudoClassStateChanged(javafx.css.PseudoClass, boolean) when the pseudo-class state changes. It is noted that if a node has a default pseudo-class state, the pseudoClassStateChanged method should be called from the constructor to set the initial state. The example given demonstrates how "xyzzy" can be used as a pseudo-class in a CSS selector, and it includes a BooleanProperty magic that, when invalidated, calls pseudoClassStateChanged(MAGIC_PSEUDO_CLASS). This functionality is useful for incorporating custom pseudo-classes into JavaFX classes.
+Similarity Score: 0.8705
+Application: Software components designed by third parties or as plugins to enhance specific functionalities within a system.
+Label: User Interface 
+Reason: The descriptions provided are closely related to the User Interface category as they involve the
+implementation and functionality of various JavaFX classes, such as `ChangeListener`, `StringBinding`, `ListProperty`, and `PseudoClass`, which are essential
+for defining the visual and interactive elements of software applications. These classes are directly involved in managing
+the behavior and appearance of user interface components, making them fitting candidates for the User Interface category.
+Additionally, the descriptions emphasize the handling of visual content, state changes, and the implementation of CSS selectors,
+all of which are integral to user interface development. 
+
+
+
+Description for javafx.beans.binding.StringBinding:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/beans/binding/StringBinding.html
+The description provided is about the Java class StringBinding, which is an abstract class that provides functionality to implement a Binding of a String. It includes a simple invalidation scheme, where an extending class can register dependencies and stop listening to them. To provide a concrete implementation, the method computeValue() needs to be implemented to calculate the value of the binding based on the current state of the dependencies. This class is part of JavaFX 2.0 and is related to Binding and StringExpression.
+Similarity Score: 0.913
+Operating System: Interfaces and functionalities providing access to and management of a computer's hardware and software resources, including system-level APIs.
+Label: Software Development and IT 
+Reason: The description of the `StringBinding` class in JavaFX, which provides functionality for implementing a binding
+of a string, registering dependencies, and implementing an invalidation scheme, aligns with the category of Software Development
+and IT, which encompasses libraries and frameworks catering to version control, continuous integration, and deployment processes. The
+class's role in managing dependencies and implementing a binding scheme directly relates to software development practices and
+frameworks. Additionally, the mention of JavaFX, a software development platform, further supports this categorization. 
+
+
+
+Description for java.util.Map:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/util/Map.html
+The `Map` interface is used to map keys to values. It does not allow duplicate keys, and each key can only map to one value. The interface provides three collection views: a set of keys, a collection of values, and a set of key-value mappings. The order of a map is determined by the order in which the iterators on the collection views return their elements. Some map implementations, like `TreeMap`, have a defined order, while others, like `HashMap`, do not. It is important to note that mutable objects used as map keys can lead to unspecified behavior. The interface also specifies the behavior of various methods and considerations for map implementations. This interface is a member of the Java Collections Framework.
+Similarity Score: 0.8929
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+Label: Data Structure 
+Reason: The given code snippet describes the `Map` interface, which is used to map keys to
+values. It provides functionality for storing and retrieving key-value pairs, with the restriction that keys must be
+unique and each key can only map to one value. The interface also defines three collection views:
+a set of keys, a collection of values, and a set of key-value mappings. This aligns with
+the characteristics and behavior of data structures that govern the organization, storage, and manipulation of data, such
+as collections, lists, and trees [[1]]. Additionally, the mention of different map implementations like `TreeMap` and `HashMap`
+further reinforces the association with data structures [[1]]. 
+
+
+Description for javafx.beans.property.ListProperty:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/beans/property/ListProperty.html
+The provided description is a summary of the class ListProperty<E> in JavaFX, which extends ReadOnlyListProperty<E> and implements various interfaces such as Property<ObservableList<E>> and WritableListValue<E>. It provides a full implementation of a Property wrapping an ObservableList, allowing the value of the ListProperty to be get and set with specific methods. Additionally, it supports binding and unbinding unidirectional and bidirectional, and the context of a ListProperty can be read with specific methods. This class has been available since JavaFX 2.1 and is related to ObservableList, ObservableListValue, WritableListValue, ReadOnlyListProperty, and Property.
+Similarity Score: 0.9051
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+Label: Software Development and IT 
+Reason: The description provided pertains to the `ListProperty` class in JavaFX, which is a fundamental component
+for managing and manipulating data within software applications. It involves the implementation of a property that wraps
+an `ObservableList` and provides various methods for accessing and modifying its value, aligning with the domain of
+software development and IT. Additionally, the class is part of the JavaFX library, which is commonly utilized
+in software development for creating user interfaces and rich internet applications. Therefore, the most fitting label for
+this description is Software Development and IT. 
+
+Could not retrieve documentation for javafx.collections.*
+Could not retrieve documentation for com.tobiasdiez.easybind.EasyBind
+
+
+Description for java.util.List:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/util/List.html
+The description is about the Java interface List<E>, which is an ordered collection that allows precise control over the insertion of elements. It allows access to elements by their index and searching for elements in the list. Unlike sets, lists typically allow duplicate elements and may allow null elements. The List interface provides methods for positional access to list elements and a special iterator called ListIterator. It also provides methods for searching, inserting, and removing multiple elements efficiently. Some list implementations have restrictions on the elements they can contain, and caution is advised when lists contain themselves as elements. The List interface is part of the Java Collections Framework.
+Similarity Score: 0.9257
+Event Handling: Mechanisms and components responsible for detecting, processing, and responding to events triggered within software applications.
+Label: Data Structure 
+Reason: The object description provides a detailed overview of the Java interface List<E>, emphasizing its role
+as an ordered collection with precise control over element insertion, access by index, and efficient searching, insertion,
+and removal of elements. It also highlights the distinction between lists and sets, the provision of methods
+for positional access, and the caution advised when lists contain themselves as elements. This aligns with the
+category of Data Structure, which encompasses patterns and frameworks governing the organization, storage, and manipulation of data,
+including collections, lists, and trees. The detailed focus on the characteristics and behavior of the List interface
+within the Java Collections Framework strongly supports its classification under the Data Structure category. 
+
+
+Description for java.util.function.Function:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/util/function/Function.html
+The description is about type parameters and the functional interface in Java. It explains that type parameters 'T' and 'R' represent the type of the input to the function and the type of the result of the function, respectively. It also mentions that the 'Function' interface is a functional interface that accepts one argument and produces a result. The functional method of this interface is 'apply(Object)'. This information is taken directly from the description provided.
+Similarity Score: 0.8777
+Logic: Frameworks and patterns governing the organization and execution flow of software applications, including control structures and architectural paradigms.
+Label: Language 
+Reason: The descriptions provided are related to the fundamental features and capabilities inherent to programming languages,
+specifically in the context of Java and JavaFX. They discuss concepts such as functional interfaces, type parameters,
+and abstract classes, which are essential elements of programming language syntax, semantics, and data type conversions. Additionally,
+the descriptions delve into the implementation and usage of specific language features within the JavaFX framework, aligning
+closely with the category of Language. 
+
+
+
+Description for javafx.beans.property.Property:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/beans/property/Property.html
+The given description is about the `Property` interface in JavaFX, which is a generic interface that defines methods common to all writable properties independent of their type. It extends the `ReadOnlyProperty` and `WritableValue` interfaces. The `Property` interface has several known subinterfaces and implementing classes, such as `BooleanProperty`, `DoubleProperty`, `IntegerProperty`, and `StringProperty`. This interface was introduced in JavaFX 2.0.
+Similarity Score: 0.7316
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+Label: User Interface 
+Reason: The given description is about the `Property` interface in JavaFX, which is commonly used in
+user interface development. JavaFX is a framework for creating rich graphical user interfaces, and the `Property` interface
+is a fundamental component of the JavaFX property binding mechanism. It allows developers to create properties that
+can be bound to UI elements, enabling automatic updates and synchronization between the UI and underlying data.
+The description mentions that the `Property` interface is used in various subinterfaces and implementing classes, such as
+`BooleanProperty`, `DoubleProperty`, `IntegerProperty`, and `StringProperty`, which are commonly used in UI development for handling different types of
+properties. Additionally, the description mentions that the `Property` interface extends the `ReadOnlyProperty` and `WritableValue` interfaces, which are
+also relevant to UI development. Therefore, the description aligns with the User Interface category. 
+
+
+Description for javafx.beans.value.ChangeListener:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/beans/value/ChangeListener.html
+A `ChangeListener` is a functional interface in JavaFX that is used to notify when the value of an `ObservableValue` changes. It can be registered and unregistered with `ObservableValue.addListener(ChangeListener)` and `ObservableValue.removeListener(ChangeListener)` respectively. The same instance of `ChangeListener` can be registered to listen to multiple `ObservableValues`. This interface is available since JavaFX 2.0.
+Similarity Score: 0.7477
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+Label: User Interface 
+Reason: The description of the `ChangeListener` in JavaFX pertains to the functionality and interaction of user
+interface components. The `ChangeListener` is used to notify when the value of an `ObservableValue` changes, which directly
+relates to user interaction and interface updates. Additionally, the ability to register and unregister the `ChangeListener` with
+`ObservableValue.addListener` and `ObservableValue.removeListener` respectively, aligns with the management of user interface elements. Furthermore, the mention of the
+same instance of `ChangeListener` being registered to listen to multiple `ObservableValues` underscores its role in managing user
+interface interactions across different elements. Lastly, the fact that this interface was introduced in JavaFX 2.0 further
+solidifies its relevance to user interface development within the JavaFX framework [[1]](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label). 
+
+
+
+Description for java.util.function.Consumer:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html
+Summary
+Consumer<T> is a functional interface in Java that represents an operation accepting a single input argument and returning no result. It is expected to operate via side-effects and can be used as the assignment target for a lambda expression or method reference. It has a functional method called accept(Object).
+
+This fits the category of a concise and accurate summary as it captures the essential details of the description without unnecessary information.
+Similarity Score: 0.8977
+Application: Software components designed by third parties or as plugins to enhance specific functionalities within a system.
+Label: Language 
+Reason: The given description provides a concise and accurate summary of the Java functional interface `Consumer<T>`.
+It explains that `Consumer<T>` represents an operation that accepts a single input argument and returns no result.
+The description also mentions that `Consumer<T>` can be used as the assignment target for a lambda expression
+or method reference. This fits the category of the Language label as it pertains to the features
+and capabilities inherent to programming languages, including syntax, semantics, and data type conversions. [[1]] 
+
+
+Description for javafx.beans.value.ObservableValue:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/beans/value/ObservableValue.html
+The `ObservableValue` interface is a type parameterized interface that serves as a wrapper for a value and allows for observing changes to that value. It is part of the JavaFX library and is used to observe changes in various types of values, such as booleans, numbers, lists, maps, and strings. Implementations of `ObservableValue` may support lazy evaluation, where the value is not immediately recomputed after changes but lazily computed the next time it is requested. The interface generates two types of events: change events, which indicate that the value has changed, and invalidation events, which indicate that the current value is no longer valid. `ObservableValue` supports attaching listeners to listen for these events. It is important to note that attaching a `ChangeListener` enforces eager computation, even if lazy evaluation is supported by the implementation.
+Similarity Score: 0.8808
+Event Handling: Mechanisms and components responsible for detecting, processing, and responding to events triggered within software applications.
+Label: Application 
+Reason: The description provided is about the ObservableValue interface in JavaFX, which is a fundamental concept
+in software development rather than a specific domain or functionality. It is used to wrap a value
+and allows for observing changes to the value. The interface itself is not directly implemented but has
+sub-interfaces for different value types. It is a general-purpose concept that can be used in various software
+applications and is not specific to any particular domain or functionality. Therefore, it falls under the "Application"
+label. 
+
+
+
+Description for javafx.beans.binding.ObjectBinding:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/beans/binding/ObjectBinding.html
+The given description is about the class `ObjectBinding<T>` in JavaFX, which is an abstract class that provides functionality for implementing a binding of an object. It allows for registering dependencies and provides an invalidation scheme. To create a concrete implementation, the `computeValue()` method needs to be implemented to calculate the value of the binding based on the current state of the dependencies. This class is part of the JavaFX 2.0 framework and is related to the `Binding` and `ObjectExpression` interfaces.
+Similarity Score: 0.8825
+Multithread: Support for concurrent execution and management of multiple threads within a software application or system.
+Label: Data Structure 
+Reason: The given description aligns with the Data Structure category as it discusses the Java interface
+List<E>, which represents an ordered collection allowing precise control over the insertion of elements, access to elements
+by their index, and searching for elements in the list. It also mentions that lists typically allow
+duplicate elements and may allow null elements, providing insights into the organization, storage, and manipulation of data
+within the context of collections. 
+Could not retrieve documentation for com.tobiasdiez.easybind.Subscription
+Classes to Methods mapping:{}

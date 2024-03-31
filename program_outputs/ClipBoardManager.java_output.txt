@@ -1,0 +1,240 @@
+Found reserved words:['package', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'public', 'class', 'public', 'static', 'final', 'new', 'private', 'static', 'final', 'class', 'private', 'static', 'private', 'static', 'private', 'final', 'public', 'this', 'public', 'this', 'public', 'static', 'void', 'if', 'new', 'if', 'public', 'static', 'if', 'return', 'return', 'public', 'return', 'class', 'public', 'static', 'if', 'try', 'return', 'catch', 'return', 'public', 'void', 'public', 'void', 'new', 'public', 'void', 'final', 'new', 'public', 'void', 'final', 'new', 'public', 'void', 'throws', 'final', 'new', 'new', 'new']
+Found variables:['org', 'jabref', 'gui', 'java', 'awt', 'Toolkit', 'datatransfer', 'DataFlavor', 'StringSelection', 'Transferable', 'UnsupportedFlavorException', 'io', 'IOException', 'util', 'List', 'Optional', 'javafx', 'application', 'Platform', 'scene', 'control', 'TextInputControl', 'input', 'Clipboard', 'ClipboardContent', 'DataFormat', 'MouseButton', 'architecture', 'AllowedToUseAwt', 'logic', 'bibtex', 'BibEntryWriter', 'FieldWriter', 'model', 'database', 'BibDatabaseMode', 'entry', 'BibEntry', 'preferences', 'PreferencesService', 'slf4j', 'Logger', 'LoggerFactory', 'ClipBoardManager', 'XML', 'LOGGER', 'getLogger', 'clipboard', 'primary', 'preferencesService', 'getSystemClipboard', 'getDefaultToolkit', 'getSystemSelection', 'addX11Support', 'selectedTextProperty', 'addListener', 'observable', 'runLater', 'String', 'newValue', 'getSelectedText', 'isEmpty', 'setContents', 'null', 'setOnMouseClicked', 'event', 'getButton', 'MIDDLE', 'insertText', 'getCaretPosition', 'getContentsPrimary', 'getContents', 'result', 'getString', 'getBibTeXEntriesFromClipbaord', 'ofNullable', 'getContent', 'DragAndDropDataFormats', 'ENTRIES', 'map', 'cast', 'contents', 'isDataFlavorSupported', 'stringFlavor', 'getTransferData', 'e', 'warn', 'getMessage', 'setContent', 'content', 'setPrimaryClipboardContent', 'setHtmlContent', 'html', 'fallbackPlain', 'putHtml', 'putString', 'string', 'entries', 'writer', 'getFieldWriterPreferences', 'Globals', 'entryTypesManager', 'serializedEntries', 'serializeAll', 'BIBTEX', 'put']
+Found node types:['CompilationUnitContext', 'PackageDeclarationContext', 'TERMINAL', 'QualifiedNameContext', 'ImportDeclarationContext', 'TypeDeclarationContext', 'ClassOrInterfaceModifierContext', 'AnnotationContext', 'AnnotationNameContext', 'ElementValueContext', 'ExpressionContext', 'PrimaryContext', 'LiteralContext', 'ClassDeclarationContext', 'ClassBodyContext', 'ClassBodyDeclarationContext', 'ModifierContext', 'MemberDeclarationContext', 'FieldDeclarationContext', 'TypeSpecContext', 'ClassOrInterfaceTypeContext', 'VariableDeclaratorsContext', 'VariableDeclaratorContext', 'VariableDeclaratorIdContext', 'VariableInitializerContext', 'CreatorContext', 'CreatedNameContext', 'ClassCreatorRestContext', 'ArgumentsContext', 'ExpressionListContext', 'ConstructorDeclarationContext', 'FormalParametersContext', 'FormalParameterListContext', 'FormalParameterContext', 'ConstructorBodyContext', 'BlockContext', 'BlockStatementContext', 'StatementContext', 'StatementExpressionContext', 'MethodDeclarationContext', 'MethodBodyContext', 'LocalVariableDeclarationStatementContext', 'LocalVariableDeclarationContext', 'ParExpressionContext', 'TypeArgumentsContext', 'TypeArgumentContext', 'CatchClauseContext', 'CatchTypeContext', 'VariableModifierContext', 'QualifiedNameListContext']
+
+Imported classes:['java.util.List', 'java.util.Optional', 'javafx.scene.input.Clipboard', 'java.awt.datatransfer.StringSelection', 'javafx.scene.input.DataFormat', 'java.io.IOException', 'javafx.application.Platform', 'java.awt.datatransfer.Transferable', 'javafx.scene.input.ClipboardContent', 'javafx.scene.input.MouseButton', 'java.awt.datatransfer.UnsupportedFlavorException', 'java.awt.Toolkit', 'java.awt.datatransfer.DataFlavor', 'javafx.scene.control.TextInputControl']
+Package names:['javafx.application', 'javafx.scene.control', 'java.io', 'java.util', 'java.awt.datatransfer', 'java.awt', 'javafx.scene.input']
+
+
+
+Description for javafx.scene.input.Clipboard:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/scene/input/Clipboard.html
+The `Clipboard` class in JavaFX represents an operating system clipboard, allowing data to be placed during cut, copy, and paste operations. There is only one instance of the system clipboard in the application, and it operates on the concept of having a single conceptual item on the clipboard at any one time, which may be placed in different formats. Content is specified on the clipboard using the `setContent` method, and the `ClipboardContent` class is a map with convenience methods for dealing with common data types added to a clipboard. When reading data off the clipboard, it is important to look for the richest supported type first, and in addition to common types, arbitrary data can be put onto the clipboard. The `DataFormat` class defines immutable objects for common data format types, and it is important to note that on embedded platforms without their own windowing system, the system clipboard might not be accessible from outside the JavaFX application.
+Similarity Score: 0.9082
+Parser: Components and algorithms responsible for analyzing and interpreting data or code structures, often breaking them down into identifiable components for further processing.
+The given object description is about the `Clipboard` class in Java, which represents an operating system
+clipboard and allows data to be placed during cut, copy, and paste operations. It operates on the
+concept of having a single conceptual item on the clipboard at any one time, which may be
+placed in different formats. The `ClipboardContent` class is a map with convenience methods for dealing with common
+data types added to a clipboard. When reading data off the clipboard, it is important to look
+for the richest supported type first, and arbitrary data can also be put onto the clipboard. However,
+on embedded platforms without their own windowing system, the system clipboard might not be accessible from outside
+the JavaFX application. JavaFX 2.0 introduced this feature [[1]](https://www.student.unsw.edu.au/paraphrasing-summarising-and-quoting). Label: User Interface 
+Reason: The `Clipboard` class in Java is primarily related to user interface functionality, specifically the handling
+of cut, copy, and paste operations. It allows data to be placed on the clipboard and retrieved
+from it, which are common user interface interactions. Additionally, the `ClipboardContent` class provides convenience methods for dealing
+with common data types added to the clipboard, further emphasizing its user interface relevance. 
+
+
+
+Description for java.awt.datatransfer.Transferable:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/awt/datatransfer/Transferable.html
+This description outlines the Transferable interface in Java, which is used to provide data for transfer operations. It lists some implementing classes and references resources for utilizing data transfer with Swing.
+Similarity Score: 0.9287
+Parser: Components and algorithms responsible for analyzing and interpreting data or code structures, often breaking them down into identifiable components for further processing.
+Label: Language 
+Reason: The description provided discusses the JavaFX MouseButton enum, which is a fundamental element for handling
+mouse button events in JavaFX applications. It involves the implementation of interfaces, such as Serializable and Comparable,
+and provides a mapping for button names. This aligns with the category of Language, which encompasses features
+and capabilities inherent to programming languages, including syntax, semantics, and data type conversions. The detailed discussion of
+the class's structure and functionality within the JavaFX framework corresponds to the domain of programming language features
+and implementations. [[1]] 
+
+Could not retrieve documentation for org.jabref.logic.bibtex.BibEntryWriter
+
+
+Description for java.awt.datatransfer.UnsupportedFlavorException:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/awt/datatransfer/UnsupportedFlavorException.html
+Summary: The "UnsupportedFlavorException" class, extending "Exception," indicates that the requested data is unsupported in a specific flavor.
+Similarity Score: 0.7727
+Geographic Information System: Technologies dealing with the storage, analysis, and visualization of spatially referenced data and geographic information.
+Label: User Interface 
+Reason: The description of the `UnsupportedFlavorException` class, which is used to signal that the requested data
+is not supported in a specific flavor, aligns with the concept of user interface components and frameworks
+defining the visual and interactive elements of software applications, including forms, screens, and graphical controls. This exception
+class is directly related to the user interface aspect of software development, as it deals with the
+presentation and interaction elements within a system. Therefore, it fits the User Interface category. 
+
+
+
+Description for java.awt.Toolkit:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/awt/Toolkit.html
+Summary:
+The Toolkit class is the abstract superclass for all implementations of the Abstract Window Toolkit. Subclasses of Toolkit are used to connect different components to specific native toolkit implementations. It is important to note that many GUI events and operations may be delivered or performed asynchronously, which can lead to inconsistencies if the state of a component is immediately queried after being set. It is recommended that most applications should not directly call the methods in this class, as they serve as the bridge between platform-independent classes in the `java.awt` package and their native counterparts in `java.awt.peer`.
+
+This summary captures the main points about the purpose and behavior of the Toolkit class without unnecessary details.
+Similarity Score: 0.9067
+Internationalization: Tools and frameworks enabling the adaptation of software applications to diverse linguistic, cultural, and regional contexts.
+Label: User Interface 
+Reason: The given description pertains to the abstract superclass of all implementations of the Abstract Window
+Toolkit (AWT) called Toolkit, which is responsible for handling GUI events and operations asynchronously, such as scrolling
+to a specified position, moving focus between components, and setting the size or location of a top-level
+container. This aligns with the components and frameworks defining the visual and interactive elements of software applications,
+falling under the category of User Interface. [[1]](https://www.student.unsw.edu.au/paraphrasing-summarising-and-quoting) [[2]](https://writingcenter.uagc.edu/quoting-paraphrasing-summarizing) [[8]] [[3]](https://nscc.libguides.com/c.php?g=292491&p=4570651) 
+
+Could not retrieve documentation for org.jabref.model.database.BibDatabaseMode
+
+
+Description for java.awt.datatransfer.DataFlavor:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/awt/datatransfer/DataFlavor.html
+The description provided is a summary of the Java class DataFlavor, which provides meta information about data, typically used for accessing data on the clipboard or during drag and drop operations. It encapsulates a content type as defined in RFC 2045 and RFC 2046, consisting of a media type, subtype, and optional parameters. The JRE data transfer implementation interprets the parameter "class" of a MIME type as a representation class, reflecting the class of the object being transferred. DataFlavor instances with the "text" primary MIME type may have a "charset" parameter, and their equality is determined by the primary type, subtype, and representation class. For more information on using data transfer with Swing, the Java Tutorial's "How to Use Drag and Drop and Data Transfer" section is recommended.
+Similarity Score: 0.9099
+User Interface: Components and frameworks defining the visual and interactive elements of software applications, including forms, screens, and graphical controls.
+Label: Input/Output 
+Reason: The description of the `DataFlavor` class in Java focuses on providing meta information about data
+and accessing data on the clipboard or during drag and drop operations. It mentions the encapsulation of
+a content type defined in RFC 2045 and RFC 2046, which is related to handling and manipulating
+data. Additionally, it discusses the representation class of a `DataFlavor` and how it is determined when invoking
+`getTransferData`. These aspects align with the functionalities and interfaces associated with input/output operations in software development. 
+
+Could not retrieve documentation for org.slf4j.Logger
+Could not retrieve documentation for org.jabref.model.entry.BibEntry
+Could not retrieve documentation for org.jabref.logic.bibtex.FieldWriter
+Could not retrieve documentation for org.jabref.architecture.AllowedToUseAwt
+
+
+Description for javafx.scene.input.ClipboardContent:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/scene/input/ClipboardContent.html
+Summary: 
+
+The class `ClipboardContent` in JavaFX 2.0 is a data container that can store multiple data items in various formats. It extends `HashMap` and implements `Serializable`, `Cloneable`, and `Map<DataFormat, Object>`.
+Similarity Score: 0.6734
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+Label: User Interface 
+Reason: The description of the `ClipboardContent` class in JavaFX mentions that it is a data container
+for clipboard data and extends the `HashMap` class. It also states that it can hold multiple data
+in various formats. These characteristics align with the functionality of a user interface component, as it is
+responsible for defining the visual and interactive elements of software applications, including forms, screens, and graphical controls.
+Therefore, the `ClipboardContent` class in JavaFX can be categorized under the User Interface label. [[1]] 
+
+
+
+Description for javafx.scene.control.TextInputControl:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/TextInputControl.html
+This is a description of the abstract base class `TextInputControl` in JavaFX. It implements the interfaces `Styleable`, `EventTarget`, and `Skinnable`. It has two direct subclasses, `TextArea` and `TextField`. The `TextInputControl` class is marked with the `@DefaultProperty(value="text")` annotation. It serves as a base class for text input controls in JavaFX.
+Similarity Score: 0.6747
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+Label: User Interface 
+Reason: The provided description discusses the abstract base class `TextInputControl` in JavaFX, which is responsible for
+text input functionality within the JavaFX framework. It implements interfaces such as `Styleable`, `EventTarget`, and `Skinnable`, and
+has direct subclasses including `TextArea` and `TextField`. This class is closely related to the visual and interactive
+elements of software applications, specifically in the context of text input controls. Therefore, it falls under the
+User Interface category. [[1]] 
+
+
+
+Description for java.util.Optional:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html
+The description is about the `Optional` class in Java, which is a container object that may or may not contain a non-null value. It provides methods such as `isPresent()` to check if a value is present, and `get()` to retrieve the value. Other methods like `orElse()` and `ifPresent()` are also available to handle the presence or absence of a value. It is important to note that using identity-sensitive operations on instances of `Optional` may have unpredictable results and should be avoided [[1]](https://www.student.unsw.edu.au/paraphrasing-summarising-and-quoting).
+Similarity Score: 0.8635
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+Label: Language 
+Reason: The description of the `Optional<T>` class in Java outlines its role as a container object
+that may or may not contain a non-null value, providing methods such as `isPresent()` and `get()` to
+check and retrieve the value, respectively. Additionally, it mentions the availability of additional methods like `orElse()` and
+`ifPresent()` depending on the presence or absence of the contained value. This aligns with the category of
+Language, which encompasses features and capabilities inherent to programming languages, including syntax, semantics, and data type conversions.
+The description focuses on the functionality and usage of a specific class within the Java programming language,
+making it a suitable fit for the Language category. 
+
+
+
+Description for java.awt.datatransfer.StringSelection:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/awt/datatransfer/StringSelection.html
+StringSelection is a class that implements the Transferable interface and acts as a Transferable for transferring a String. It properly supports DataFlavor.stringFlavor and all equivalent flavors, while support for DataFlavor.plainTextFlavor and all equivalent flavors is deprecated. No other DataFlavors are supported.
+Similarity Score: 0.8717
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+The given object description is about the `StringSelection` class, which is a Transferable implementation that allows
+for the transfer of a String. It supports the `DataFlavor.stringFlavor` and equivalent flavors, while support for `DataFlavor.plainTextFlavor`
+and other flavors is deprecated. Based on this description, the most appropriate label for this object is
+Input/Output. The `StringSelection` class is related to the functionality of transferring data, specifically strings, which falls under
+the category of Input/Output in software development. 
+
+
+
+Description for javafx.scene.input.DataFormat:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/scene/input/DataFormat.html
+DataFormat class in JavaFX 2.0 is utilized to identify the data stored on a clipboard or dragboard.
+Similarity Score: 0.8743
+Application: Software components designed by third parties or as plugins to enhance specific functionalities within a system.
+Label: User Interface 
+Reason: The description of the `StringSelection` class and the `DataFormat` class pertains to the visual and
+interactive elements of software applications, specifically related to handling data transfer and format identification within the user
+interface of JavaFX 2.0. This aligns with the category of User Interface, which encompasses components and frameworks
+defining the visual and interactive elements of software applications, including forms, screens, and graphical controls [[1]](https://www.student.unsw.edu.au/paraphrasing-summarising-and-quoting) [[2]](https://writingcenter.uagc.edu/quoting-paraphrasing-summarizing)
+[[8]] [[3]](https://nscc.libguides.com/c.php?g=292491&p=4570651). 
+
+
+
+Description for java.util.List:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/util/List.html
+The List interface in Java is an ordered collection that allows precise control over the placement of elements. It permits access to elements by their integer index and the search for elements in the list. Unlike sets, lists typically allow duplicate elements and multiple null elements. The interface places additional stipulations on the contracts of various methods and provides methods for positional access to list elements. It also offers a special iterator called ListIterator and methods for efficiently inserting and removing multiple elements at any point in the list. However, caution is advised when using certain methods for searching and inserting elements, and extreme caution is advised when lists contain themselves as elements [[1]](https://www.student.unsw.edu.au/paraphrasing-summarising-and-quoting).
+Similarity Score: 0.9337
+Operating System: Interfaces and functionalities providing access to and management of a computer's hardware and software resources, including system-level APIs.
+Label: Data Structure 
+Reason: The object description provides a detailed overview of the Java interface List<E>, emphasizing its role
+as an ordered collection with precise control over element insertion, access by index, and efficient searching, insertion,
+and removal of elements. It also highlights the distinction between lists and sets, the provision of methods
+for positional access, and the caution advised when lists contain themselves as elements. This aligns with the
+category of Data Structure, which encompasses patterns and frameworks governing the organization, storage, and manipulation of data,
+including collections, lists, and trees. The detailed focus on the characteristics and behavior of the List interface
+within the Java Collections Framework strongly supports its classification under the Data Structure category. 
+
+Could not retrieve documentation for org.slf4j.LoggerFactory
+Could not retrieve documentation for org.jabref.preferences.PreferencesService
+
+
+Description for java.io.IOException:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html
+The description provided is about the class `IOException` in Java, which is a subclass of the `Exception` class. It signals that an I/O exception has occurred during a failed or interrupted I/O operation. The class is serializable and has various direct known subclasses such as `FileNotFoundException`, `SocketException`, and `ZipException`.
+Similarity Score: 0.7785
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+Label: Language 
+Reason: The descriptions provided focus on the Java language and its associated classes, such as `DataFlavor`,
+`ClipboardContent`, and `IOException`. These descriptions emphasize the features, functionalities, and usage of these language-specific classes within the
+Java programming language, aligning with the category of Language in the given options. [[1]](https://www.student.unsw.edu.au/paraphrasing-summarising-and-quoting) [[2]](https://research.wou.edu/c.php?g=1046948&p=7596964) 
+
+
+
+Description for javafx.application.Platform:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/application/Platform.html
+The given description is about the JavaFX class called "Platform." It is a final class that extends the Object class and serves as a support class for application platforms. This class was introduced in JavaFX 2.0.
+Similarity Score: 0.8266
+Operating System: Interfaces and functionalities providing access to and management of a computer's hardware and software resources, including system-level APIs.
+Label: Software Development and IT 
+Reason: The description of the JavaFX class "Platform" aligns with the category of Software Development and
+IT, as it pertains to a specific class within the JavaFX framework, which is a technology used
+for developing software applications. The "Platform" class serves as a support class for application platforms, indicating its
+relevance to software development, and it was introduced in JavaFX 2.0, further emphasizing its association with software
+development and IT [[1]](https://stackoverflow.com/questions/43377189/how-to-use-log-loss-in-gridsearchcv-with-multi-class-labels-in-scikit-learn). 
+
+
+Description for javafx.scene.input.MouseButton:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/scene/input/MouseButton.html
+Summary:
+The provided description is an enumeration class in JavaFX 2.0 that implements the Serializable and Comparable interfaces, as well as extends the Enum class for MouseButton mapping and button name representation.
+
+This fits the category of a concise and accurate summary as it captures the essential details of the class, its implemented interfaces, and its purpose in JavaFX 2.0 without unnecessary information.
+Similarity Score: 0.9194
+Logic: Frameworks and patterns governing the organization and execution flow of software applications, including control structures and architectural paradigms.
+Label: Event Handling 
+Reason: The description provided is about the JavaFX MouseButton enum, which is used to represent the
+buttons of a pointing device, such as a mouse, and allows for the handling of mouse button
+events in JavaFX applications. This aligns with the category of Event Handling, which encompasses mechanisms and components
+responsible for detecting, processing, and responding to events triggered within software applications. The JavaFX MouseButton enum specifically
+deals with handling mouse button events, making it a suitable fit for the Event Handling category. 
+
+Classes to Methods mapping:{'DataFormat': [], 'ClipboardContent': ['putString', 'putHtml', 'put']}
+javafx.scene.input.DataFormatFetching documentation from: https://docs.oracle.com/javafx/2/api/javafx/scene/input/DataFormat.html
+javafx.scene.input.ClipboardContentFetching documentation from: https://docs.oracle.com/javafx/2/api/javafx/scene/input/ClipboardContent.htmlClass: ClipboardContent, Method: putString, Description: Puts a plain text String onto the Clipboard.Class: ClipboardContent, Method: putHtml, Description: Puts an HTML text String onto the Clipboard.Class: ClipboardContent, Method : put,  Summary: Method: put
+The `put` method in the `ClipboardContent` class allows you to put various types of data onto the clipboard. It has multiple overloads with different parameters and descriptions. Here is a concise summary of the different variations of the `put` method:
+
+- put(List<File> files): Puts a list of files onto the clipboard.
+- put(String filePath): Puts a list of files onto the clipboard, based on the file path.
+- put(String htmlText): Puts an HTML text string onto the clipboard.
+- put(Image image): Puts an image onto the clipboard.
+- put(String rtfText): Puts an RTF text string onto the clipboard.
+- put(String plainText): Puts a plain text string onto the clipboard.
+- put(String url): Puts a URL string onto the clipboard.
+
+These variations allow you to put different types of data onto the clipboard, such as files, text, images, and URLs.

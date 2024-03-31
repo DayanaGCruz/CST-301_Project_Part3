@@ -1,0 +1,80 @@
+Found reserved words:['package', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'public', 'class', 'private', 'static', 'final', 'class', 'private', 'final', 'private', 'final', 'private', 'final', 'private', 'final', 'public', 'this', 'this', 'this', 'new', 'this', 'new', 'public', 'if', 'if', 'return', 'return', 'public', 'void', 'public', 'void', 'public', 'void', 'for', 'new', 'new', 'public', 'void', 'try', 'catch', 'try', 'catch', 'public', 'void', 'try', 'for', 'catch', 'try', 'catch']
+Found variables:['org', 'jabref', 'gui', 'externalfiles', 'externalfiletype', 'ExternalFileType', 'ExternalFileTypes', 'UnknownExternalFileType', 'logic', 'cleanup', 'MoveFilesCleanup', 'RenamePdfCleanup', 'pdf', 'search', 'indexing', 'IndexingTaskManager', 'PdfIndexer', 'util', 'io', 'FileUtil', 'model', 'database', 'BibDatabaseContext', 'entry', 'BibEntry', 'LinkedFile', 'preferences', 'FilePreferences', 'slf4j', 'Logger', 'LoggerFactory', 'java', 'IOException', 'nio', 'file', 'Path', 'List', 'Optional', 'ExternalFilesEntryLinker', 'LOGGER', 'getLogger', 'filePreferences', 'bibDatabaseContext', 'moveFilesCleanup', 'renameFilesCleanup', 'false', 'copyFileToFileDir', 'firstExistingFileDir', 'getFirstExistingFileDir', 'isPresent', 'targetFile', 'get', 'resolve', 'getFileName', 'copyFile', 'ofNullable', 'empty', 'renameLinkedFilesToPattern', 'moveLinkedFilesToFileDir', 'addFilesToEntry', 'files', 'getFileExtension', 'ifPresent', 'ext', 'type', 'getExternalFileTypeByExt', 'orElse', 'relativePath', 'relativize', 'getFileDirectories', 'linkedfile', 'getName', 'addFile', 'moveFilesToFileDirAndAddToEntry', 'indexingTaskManager', 'AutoCloseable', 'blocker', 'blockNewTasks', 'Exception', 'e', 'error', 'addToIndex', 'of', 'copyFilesToFileDirAndAddToEntry', 'copiedFile']
+Found node types:['CompilationUnitContext', 'PackageDeclarationContext', 'TERMINAL', 'QualifiedNameContext', 'ImportDeclarationContext', 'TypeDeclarationContext', 'ClassOrInterfaceModifierContext', 'ClassDeclarationContext', 'ClassBodyContext', 'ClassBodyDeclarationContext', 'ModifierContext', 'MemberDeclarationContext', 'FieldDeclarationContext', 'TypeSpecContext', 'ClassOrInterfaceTypeContext', 'VariableDeclaratorsContext', 'VariableDeclaratorContext', 'VariableDeclaratorIdContext', 'VariableInitializerContext', 'ExpressionContext', 'PrimaryContext', 'ExpressionListContext', 'ConstructorDeclarationContext', 'FormalParametersContext', 'FormalParameterListContext', 'FormalParameterContext', 'ConstructorBodyContext', 'BlockContext', 'BlockStatementContext', 'StatementContext', 'StatementExpressionContext', 'CreatorContext', 'CreatedNameContext', 'ClassCreatorRestContext', 'ArgumentsContext', 'LiteralContext', 'MethodDeclarationContext', 'TypeArgumentsContext', 'TypeArgumentContext', 'MethodBodyContext', 'LocalVariableDeclarationStatementContext', 'LocalVariableDeclarationContext', 'ParExpressionContext', 'ForControlContext', 'EnhancedForControlContext', 'ResourceSpecificationContext', 'ResourcesContext', 'ResourceContext', 'CatchClauseContext', 'CatchTypeContext']
+
+Imported classes:['java.io.IOException', 'java.util.List', 'java.nio.file.Path', 'java.util.Optional']
+Package names:['java.nio.file', 'java.util', 'java.io']
+
+Could not retrieve documentation for org.slf4j.Logger
+Could not retrieve documentation for org.jabref.model.entry.LinkedFile
+Could not retrieve documentation for org.slf4j.LoggerFactory
+Could not retrieve documentation for org.jabref.logic.pdf.search.indexing.PdfIndexer
+
+
+Description for java.io.IOException:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html
+The class `IOException` is a subclass of the `Exception` class in Java. It is used to signal that an I/O (input/output) exception has occurred during a failed or interrupted I/O operation. This class is the general class of exceptions produced by such operations. It is part of the `java.io` package and has been available since JDK1.0.
+Similarity Score: 0.8414
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+Label: Language 
+Reason: The descriptions provided focus on the Java language and its associated classes, such as `DataFlavor`,
+`ClipboardContent`, and `IOException`. These descriptions emphasize the features, functionalities, and usage of these language-specific classes within the
+Java programming language, aligning with the category of Language in the given options. [[1]](https://www.student.unsw.edu.au/paraphrasing-summarising-and-quoting) [[2]](https://research.wou.edu/c.php?g=1046948&p=7596964) 
+
+
+
+Description for java.util.Optional:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html
+The description is about the `Optional` class in Java, which is a container object that may or may not contain a non-null value. It provides methods such as `isPresent()` to check if a value is present, and `get()` to retrieve the value. Other methods like `orElse()` and `ifPresent()` are also available to handle the presence or absence of a value. It is important to note that using identity-sensitive operations on instances of `Optional` may have unpredictable results and should be avoided [[1]](https://www.student.unsw.edu.au/paraphrasing-summarising-and-quoting).
+Similarity Score: 0.8635
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+Label: Language 
+Reason: The description of the `Optional<T>` class in Java outlines its role as a container object
+that may or may not contain a non-null value, providing methods such as `isPresent()` and `get()` to
+check and retrieve the value, respectively. Additionally, it mentions the availability of additional methods like `orElse()` and
+`ifPresent()` depending on the presence or absence of the contained value. This aligns with the category of
+Language, which encompasses features and capabilities inherent to programming languages, including syntax, semantics, and data type conversions.
+The description focuses on the functionality and usage of a specific class within the Java programming language,
+making it a suitable fit for the Language category. 
+
+Could not retrieve documentation for org.jabref.logic.util.io.FileUtil
+Could not retrieve documentation for org.jabref.gui.externalfiletype.ExternalFileType
+
+
+Description for java.nio.file.Path:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/nio/file/Path.html
+The `Path` interface in Java represents a file or directory path in a file system. It is hierarchical and consists of directory and file name elements separated by a delimiter. The interface provides methods to access and manipulate path components, resolve and combine paths, and compare paths. It also extends the `Watchable` interface, allowing directories to be registered with a `WatchService` for monitoring changes. The interface is intended for custom file system implementations and is used with the `Files` class for file operations. Paths created by the default provider are interoperable with the `java.io.File` class. Implementations of this interface are immutable and safe for concurrent use.
+Similarity Score: 0.9075
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+Label: Input/Output 
+Reason: The description of the `Path` interface in Java indicates that it is used to locate
+a file in a file system, access path components, resolve and combine paths, and construct relative paths.
+It also mentions that the `Path` interface can be used with the `Files` class for file operations.
+These functionalities are closely related to input/output operations, as they involve reading from and writing to various
+data sources and destinations. Therefore, the `Path` interface falls under the Input/Output category. 
+
+Could not retrieve documentation for org.jabref.model.database.BibDatabaseContext
+Could not retrieve documentation for org.jabref.gui.externalfiletype.ExternalFileTypes
+Could not retrieve documentation for org.jabref.logic.cleanup.MoveFilesCleanup
+Could not retrieve documentation for org.jabref.logic.cleanup.RenamePdfCleanup
+Could not retrieve documentation for org.jabref.logic.pdf.search.indexing.IndexingTaskManager
+
+
+Description for java.util.List:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/util/List.html
+The given description is about the Java interface `List<E>`, which is an ordered collection that allows precise control over the insertion of elements and provides indexed access to elements. Unlike sets, lists typically allow duplicate elements and may allow null elements. The List interface has additional stipulations on iterator, add, remove, equals, and hashCode methods. It also provides methods for positional access to list elements and a special iterator called ListIterator. The interface includes methods for searching, inserting, and removing multiple elements. Lists can contain themselves as elements, but caution is advised. Some list implementations have restrictions on the elements they can contain, and attempting to add an ineligible element may throw an exception. The List interface is part of the Java Collections Framework and has been available since version 1.2.
+Similarity Score: 0.9257
+Event Handling: Mechanisms and components responsible for detecting, processing, and responding to events triggered within software applications.
+Label: Data Structure 
+Reason: The object description provides a detailed overview of the Java interface List<E>, emphasizing its role
+as an ordered collection with precise control over element insertion, access by index, and efficient searching, insertion,
+and removal of elements. It also highlights the distinction between lists and sets, the provision of methods
+for positional access, and the caution advised when lists contain themselves as elements. This aligns with the
+category of Data Structure, which encompasses patterns and frameworks governing the organization, storage, and manipulation of data,
+including collections, lists, and trees. The detailed focus on the characteristics and behavior of the List interface
+within the Java Collections Framework strongly supports its classification under the Data Structure category. 
+
+Could not retrieve documentation for org.jabref.model.entry.BibEntry
+Could not retrieve documentation for org.jabref.gui.externalfiletype.UnknownExternalFileType
+Could not retrieve documentation for org.jabref.preferences.FilePreferences
+Classes to Methods mapping:{}

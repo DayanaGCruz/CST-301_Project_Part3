@@ -1,0 +1,162 @@
+Found reserved words:['package', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'identifier', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'public', 'class', 'implements', 'private', 'static', 'final', 'private', 'static', 'final', 'new', 'public', 'return', 'public', 'throws', 'new', 'return', 'public', 'throws', 'new', 'new', 'return', 'public', 'identifier', 'throws', 'new', 'identifier', 'return', 'public', 'return', 'if', 'return', 'if', 'return', 'if', 'return', 'new', 'for', 'int', 'add', 'return', 'public', 'void', 'if', 'new', 'new', 'private', 'throws', 'try', 'new', 'return', 'catch', 'throw', 'new', 'private', 'if', 'return', 'return', 'new', 'private', 'return', 'public', 'throws', 'final', 'final', 'new', 'for', 'if', 'return', 'if', 'return', 'return', 'public', 'return']
+Found variables:['org', 'jabref', 'logic', 'importer', 'fetcher', 'kong', 'unirest', 'json', 'JSONArray', 'JSONException', 'JSONObject', 'apache', 'http', 'client', 'utils', 'URIBuilder', 'lucene', 'queryparser', 'flexible', 'core', 'nodes', 'QueryNode', 'cleanup', 'FieldFormatterCleanup', 'formatter', 'bibtexfields', 'ClearFormatter', 'RemoveBracesFormatter', 'transformers', 'DefaultQueryTransformer', 'util', 'JsonReader', 'strings', 'StringSimilarity', 'model', 'entry', 'Author', 'AuthorList', 'BibEntry', 'field', 'StandardField', 'DOI', 'types', 'EntryType', 'StandardEntryType', 'OptionalUtil', 'java', 'net', 'MalformedURLException', 'URISyntaxException', 'URL', 'ArrayList', 'Collections', 'List', 'Optional', 'stream', 'IntStream', 'CrossRef', 'IdParserFetcher', 'EntryBasedParserFetcher', 'SearchBasedParserFetcher', 'IdBasedParserFetcher', 'String', 'API_URL', 'REMOVE_BRACES_FORMATTER', 'Override', 'getName', 'getURLForEntry', 'FetcherException', 'uriBuilder', 'getLatexFreeField', 'TITLE', 'ifPresent', 'title', 'addParameter', 'AUTHOR', 'author', 'YEAR', 'year', 'build', 'toURL', 'getURLForQuery', 'luceneQuery', 'transformLuceneQuery', 'orElse', 'getUrlForIdentifier', 'Parser', 'getParser', 'inputStream', 'response', 'toJsonObject', 'isEmpty', 'emptyList', 'getJSONObject', 'has', 'jsonItemToBibEntry', 'singletonList', 'items', 'getJSONArray', 'entries', 'length', 'i', 'item', 'doPostCleanup', 'getField', 'equals', 'SUBTITLE', 'ParseException', 'setType', 'convertType', 'getString', 'setField', 'ofNullable', 'optJSONArray', 'map', 'array', 'optString', 'toAuthors', 'optJSONObject', 'optInt', 'Integer', 'toString', 'PAGES', 'VOLUME', 'ISSN', 'exception', 'authors', 'null', 'range', 'mapToObj', 'collect', 'getAsFirstLastNamesWithAnd', 'type', 'Article', 'Misc', 'extractIdentifier', 'inputEntry', 'fetchedEntries', 'entryTitle', 'format', 'stringSimilarity', 'fetchedEntry', 'dataTitle', 'isPresentAnd', 'isSimilar', 'getDOI', 'dataSubtitle', 'dataWithSubTitle', 'combine', 'subtitle', 'titleWithSubtitle', 'empty', 'getIdentifierName']
+Found node types:['CompilationUnitContext', 'PackageDeclarationContext', 'TERMINAL', 'QualifiedNameContext', 'ImportDeclarationContext', 'TypeDeclarationContext', 'ClassOrInterfaceModifierContext', 'ClassDeclarationContext', 'TypeListContext', 'TypeSpecContext', 'ClassOrInterfaceTypeContext', 'TypeArgumentsContext', 'TypeArgumentContext', 'ClassBodyContext', 'ClassBodyDeclarationContext', 'ModifierContext', 'MemberDeclarationContext', 'FieldDeclarationContext', 'VariableDeclaratorsContext', 'VariableDeclaratorContext', 'VariableDeclaratorIdContext', 'VariableInitializerContext', 'ExpressionContext', 'PrimaryContext', 'LiteralContext', 'CreatorContext', 'CreatedNameContext', 'ClassCreatorRestContext', 'ArgumentsContext', 'AnnotationContext', 'AnnotationNameContext', 'MethodDeclarationContext', 'FormalParametersContext', 'MethodBodyContext', 'BlockContext', 'BlockStatementContext', 'StatementContext', 'FormalParameterListContext', 'FormalParameterContext', 'QualifiedNameListContext', 'LocalVariableDeclarationStatementContext', 'LocalVariableDeclarationContext', 'ExpressionListContext', 'StatementExpressionContext', 'ParExpressionContext', 'TypeArgumentsOrDiamondContext', 'ForControlContext', 'ForInitContext', 'PrimitiveTypeContext', 'ForUpdateContext', 'CatchClauseContext', 'CatchTypeContext', 'VariableModifierContext', 'EnhancedForControlContext', 'NonWildcardTypeArgumentsContext', 'ExplicitGenericInvocationSuffixContext']
+
+Imported classes:['java.net.URISyntaxException', 'java.net.URL', 'java.net.MalformedURLException', 'java.util.stream.IntStream', 'java.util.List', 'java.util.ArrayList', 'java.util.Collections', 'java.util.Optional']
+Package names:['java.util', 'java.net', 'java.util.stream']
+
+Could not retrieve documentation for org.jabref.logic.formatter.bibtexfields.ClearFormatter
+Could not retrieve documentation for org.jabref.model.entry.Author
+Could not retrieve documentation for kong.unirest.json.JSONArray
+Could not retrieve documentation for org.jabref.logic.cleanup.FieldFormatterCleanup
+Could not retrieve documentation for org.jabref.model.entry.types.EntryType
+Could not retrieve documentation for org.jabref.logic.util.strings.StringSimilarity
+Could not retrieve documentation for org.jabref.model.entry.field.StandardField
+Could not retrieve documentation for org.jabref.model.entry.identifier.DOI
+Could not retrieve documentation for org.apache.lucene.queryparser.flexible.core.nodes.QueryNode
+Could not retrieve documentation for kong.unirest.json.JSONObject
+Could not retrieve documentation for org.jabref.logic.importer.util.JsonReader
+
+
+Description for java.net.MalformedURLException:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/net/MalformedURLException.html
+The description outlines the Java class MalformedURLException, which extends IOException and is thrown when a malformed URL is encountered due to protocol absence or parsing issues. It has been part of JDK1.0 and implements the Serializable interface.
+Similarity Score: 0.8753
+Operating System: Interfaces and functionalities providing access to and management of a computer's hardware and software resources, including system-level APIs.
+Label: Error Handling 
+Reason: The given description is about the Java class `MalformedURLException`, which extends `IOException` and is thrown
+to indicate that a malformed URL has occurred. This class is specifically designed to handle errors related
+to malformed URLs, indicating that no legal protocol could be found or that the string could not
+be parsed. It falls under the category of error handling as it is a specific exception class
+used to handle errors or exceptional conditions within software systems. The class was introduced in JDK1.0. [[1]]
+
+
+Could not retrieve documentation for org.jabref.model.entry.AuthorList
+Could not retrieve documentation for org.jabref.model.util.OptionalUtil
+
+
+Description for java.util.Collections:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html
+The "Collections" class in Java is a class that contains static methods for operating on or returning collections. It includes algorithms that work with collections, as well as "wrappers" that create new collections based on existing ones. The class also provides documentation for the algorithms, although the implementation details can be substituted as long as the specification is followed. The class also has "destructive" algorithms that modify the collection they operate on, and they are specified to throw UnsupportedOperationException if the collection does not support the necessary mutation operations. The "Collections" class is part of the Java Collections Framework.
+Similarity Score: 0.8792
+Internationalization: Tools and frameworks enabling the adaptation of software applications to diverse linguistic, cultural, and regional contexts.
+- Java Platform SE 8: Class Collections - Java Platform SE 8: Interface Collection - Java
+Platform SE 8: Interface List - Java Platform SE 8: Interface Set - Java Platform SE 8:
+Interface Map Label: Data Structure 
+Reason: The `Collections` class in Java provides static methods for operating on or returning collections. It
+offers polymorphic algorithms, "wrappers" for creating new collections backed by existing ones, and other miscellaneous functionalities. These
+features are closely related to the patterns and frameworks governing the organization, storage, and manipulation of data,
+which fall under the category of Data Structure. The `Collections` class is part of the Java Collections
+Framework, which is designed to provide a unified architecture for representing and manipulating collections of objects. 
+
+
+
+Description for java.util.Optional:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html
+The class Optional<T> is a container object that may or may not contain a non-null value. It provides methods such as isPresent() to check if a value is present, get() to retrieve the value, orElse() to return a default value if the value is not present, and ifPresent() to execute a block of code if the value is present. It is a value-based class, and the use of identity-sensitive operations on instances of Optional should be avoided due to unpredictable results.
+Similarity Score: 0.8893
+Application: Software components designed by third parties or as plugins to enhance specific functionalities within a system.
+Label: Language 
+Reason: The description of the `Optional<T>` class in Java outlines its role as a container object
+that may or may not contain a non-null value, providing methods such as `isPresent()` and `get()` to
+check and retrieve the value, respectively. Additionally, it mentions the availability of additional methods like `orElse()` and
+`ifPresent()` depending on the presence or absence of the contained value. This aligns with the category of
+Language, which encompasses features and capabilities inherent to programming languages, including syntax, semantics, and data type conversions.
+The description focuses on the functionality and usage of a specific class within the Java programming language,
+making it a suitable fit for the Language category. 
+
+Could not retrieve documentation for org.apache.http.client.utils.URIBuilder
+
+
+Description for java.net.URISyntaxException:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/net/URISyntaxException.html
+The `URISyntaxException` class is a checked exception in Java that is thrown when a string cannot be parsed as a URI reference. It extends the `Exception` class and implements the `Serializable` interface. This exception was introduced in Java 1.4 and is often used in conjunction with the `URI` class.
+Similarity Score: 0.7927
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+Label: Input/Output 
+Reason: The given description is about the Java class `URISyntaxException`, which is a checked exception used
+to signal a failure in parsing a string as a URI reference. This class is related to
+handling input/output operations and specifically deals with parsing URI references. It falls under the Input/Output category as
+it is part of the Java API for handling input/output functionalities. 
+
+
+
+Description for java.net.URL:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/net/URL.html
+The description is about the `URL` class in Java, which represents a Uniform Resource Locator. It is used to point to a resource on the World Wide Web, such as a file, directory, or a query to a database or search engine. The URL can be broken down into several parts, including the protocol, host machine, path component, and optional port number. It can also have a fragment or reference appended to it. The URL class does not encode or decode URL components, and it is the responsibility of the caller to handle encoding and decoding. The recommended way to manage URLs is to use the `URI` class and convert between `URL` and `URI` using the appropriate methods [[1]](https://www.student.unsw.edu.au/paraphrasing-summarising-and-quoting).
+Similarity Score: 0.906
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+Label: Parser 
+Reason: The description of the `URL` class in Java involves the parsing and interpretation of various
+components, such as the protocol, host machine name, path, and optional port numbers, which aligns with the
+functionalities associated with analyzing and interpreting data or code structures, often breaking them down into identifiable components
+for further processing, as seen in the context of parsing URLs within software applications [[1]](https://www.w3.org/WAI/tutorials/forms/labels/). 
+
+Could not retrieve documentation for org.jabref.logic.importer.fetcher.transformers.DefaultQueryTransformer
+
+
+Description for java.util.List:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/util/List.html
+The List interface in Java represents an ordered collection, allowing precise control over the position of elements and access by integer index. Unlike sets, lists typically allow duplicate elements and may permit multiple null elements. The interface places additional stipulations on iterator, add, remove, equals, and hashCode methods, and provides four positional access methods. It also offers a special ListIterator for element insertion and replacement, bidirectional access, and two methods for searching and efficiently inserting/removing multiple elements. However, lists containing themselves as elements should be used with caution due to potential issues with the equals and hashCode methods. Some list implementations have restrictions on the elements they may contain, and attempting to add or query ineligible elements may result in exceptions or false returns, marked as "optional" in the interface's specification [[1]](https://www.student.unsw.edu.au/paraphrasing-summarising-and-quoting).
+Similarity Score: 0.9411
+Event Handling: Mechanisms and components responsible for detecting, processing, and responding to events triggered within software applications.
+Label: Data Structure 
+Reason: The object description provides a detailed overview of the Java interface List<E>, emphasizing its role
+as an ordered collection with precise control over element insertion, access by index, and efficient searching, insertion,
+and removal of elements. It also highlights the distinction between lists and sets, the provision of methods
+for positional access, and the caution advised when lists contain themselves as elements. This aligns with the
+category of Data Structure, which encompasses patterns and frameworks governing the organization, storage, and manipulation of data,
+including collections, lists, and trees. The detailed focus on the characteristics and behavior of the List interface
+within the Java Collections Framework strongly supports its classification under the Data Structure category. 
+
+Could not retrieve documentation for org.jabref.logic.formatter.bibtexfields.RemoveBracesFormatter
+Could not retrieve documentation for org.jabref.logic.importer.*
+Could not retrieve documentation for org.jabref.model.entry.types.StandardEntryType
+Could not retrieve documentation for kong.unirest.json.JSONException
+
+
+Description for java.util.stream.IntStream:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/util/stream/IntStream.html
+The `IntStream` interface is a sequence of primitive int-valued elements that supports sequential and parallel aggregate operations. It is the int primitive specialization of the `Stream` interface. The example provided demonstrates how to perform an aggregate operation using `Stream` and `IntStream` to calculate the sum of the weights of red widgets. For more information on streams and their operations, you can refer to the documentation for `Stream` and the package documentation for `java.util.stream`. The `IntStream` interface was introduced in Java 1.8.
+Similarity Score: 0.8261
+Internationalization: Tools and frameworks enabling the adaptation of software applications to diverse linguistic, cultural, and regional contexts.
+Label: Software Development and IT 
+Reason: The description of the `IntStream` interface in Java aligns with the category of Software Development
+and IT, as it involves libraries and frameworks for processing primitive `int` values, supporting aggregate operations, and
+enabling sequential and parallel processing of elements. This aligns with the focus on version control, continuous integration,
+and deployment processes within the software development and IT category. Additionally, the reference to Java version 1.8
+indicates its relevance to software development and IT practices. 
+
+
+
+Description for java.util.ArrayList:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+The provided description is a concise summary of the ArrayList class in Java, which is a resizable-array implementation of the List interface. It implements all optional list operations, permits all elements including null, and provides methods to manipulate the size of the internal array used to store the list. The class runs various operations in constant or linear time, and its capacity grows automatically as elements are added. It is important to note that this implementation is not synchronized, and if multiple threads access an ArrayList instance concurrently, synchronization must be managed externally. Additionally, the iterators returned by this class's iterator and listIterator methods are fail-fast, throwing a ConcurrentModificationException if the list is structurally modified after the iterator is created, except through the iterator's own remove or add methods [[1]](https://www.student.unsw.edu.au/paraphrasing-summarising-and-quoting).
+Similarity Score: 0.9181
+Operating System: Interfaces and functionalities providing access to and management of a computer's hardware and software resources, including system-level APIs.
+Label: Data Structure 
+Reason: The provided description is a concise summary of the ArrayList class in Java, which is
+a resizable-array implementation of the List interface. It discusses the features and functionalities of the ArrayList class,
+such as implementing all optional list operations, permitting all elements including null, and providing methods to manipulate
+the size of the internal array used to store the list. It also mentions that the class
+runs various operations in constant or linear time and that its capacity grows automatically as elements are
+added. Additionally, it highlights the importance of managing synchronization externally when multiple threads access an ArrayList instance
+concurrently and mentions the fail-fast behavior of the iterators returned by the class's iterator and listIterator methods.
+All of these characteristics align with the concept of data structures, which govern the organization, storage, and
+manipulation of data, including collections and lists [[1]](https://www.epa.gov/pesticide-labels/pesticide-labeling-questions-answers)(https://www.student.unsw.edu.au/paraphrasing-summarising-and-quoting). 
+Could not retrieve documentation for org.jabref.model.entry.BibEntry
+Classes to Methods mapping:{'ArrayList': ['add']}
+java.util.ArrayListFetching documentation from: https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/ArrayList.htmlClass: ArrayList, Method : add,  Summary: Method Descriptions from ArrayList
+
+The ArrayList class in Java has multiple overloaded versions of the `add` method, each with a different purpose and set of parameters. Here is a concise summary of the different `add` methods:
+
+1. `add(element, index)`: Inserts the specified element at the specified position in the list.
+2. `add(element)`: Appends the specified element to the end of the list.
+3. `add(collection, index)`: Inserts all elements from the specified collection into the list, starting at the specified position.
+4. `add(collection)`: Appends all elements from the specified collection to the end of the list, in the order they are returned by the collection's iterator.
+5. `addFirst(element)`: Adds an element as the first element of the collection (optional operation).
+6. `addLast(element)`: Adds an element as the last element of the collection (optional operation).
+
+These methods provide flexibility for adding elements to an ArrayList at specific positions, appending elements, and adding elements from other collections. The `addFirst` and `addLast` methods specifically add elements at the beginning and end of the collection, respectively.
+
+Please note that the descriptions provided are a concise summary of the methods and their purposes. For more detailed information and usage examples, refer to the official Java documentation on the ArrayList class. [[1]](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html)

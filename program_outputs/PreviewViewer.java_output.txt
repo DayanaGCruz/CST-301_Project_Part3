@@ -1,0 +1,269 @@
+Found reserved words:['package', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'import', 'public', 'class', 'extends', 'implements', 'private', 'static', 'final', 'class', 'private', 'static', 'final', 'div', 'private', 'static', 'final', 'class', 'case', 'return', 'this', 'this', 'this', 'this', 'return', 'void', 'this', 'this', 'this', 'return', 'return', 'return', 'this', 'if', 'return', 'this', 'this', 'return', 'return', 'return', 'void', 'this', 'this', 'this', 'this', 'this', 'this', 'return', 'this', 'this', 'this', 'this', 'this', 'this', 'this', 'return', 'return', 'this', 'this', 'this', 'return', 'this', 'this', 'this', 'if', 'void', 'if', 'return', 'if', 'return', 'return', 'return', 'this', 'for', 'this', 'return', 'this', 'this', 'for', 'if', 'else', 'if', 'continue', 'if', 'for', 'this', 'this', 'for', 'if', 'for', 'return', 'this', 'this', 'return', 'for', 'this', 'this', 'if', 'if', 'for', 'else', 'this', 'this', 'this', 'this', 'this', 'this', 'this', 'this', 'return', 'this', 'this', 'this', 'this', 'this', 'new', 'return', 'this', 'this', 'this', 'this', 'this', 'return', 'this', 'this', 'this', 'this', 'this', 'this', 'this', 'this', 'this', 'return', 'this', 'this', 'return', 'return', 'this', 'return', 'new', 'this', 'this', 'this', 'this', 'return', 'this', 'new', 'return', 'this', 'return', 'this', 'return', 'this', 'return', 'this', 'return', 'this', 'new', 'private', 'static', 'return', 'public', 'void', 'if', 'return', 'public', 'void', 'for', 'this', 'for', 'this', 'private', 'void', 'if', 'return', 'this', 'private', 'void', 'this', 'public', 'void', 'boolean', 'if', 'return', 'public', 'void', 'new', 'public', 'void', 'new', 'public', 'void', 'public', 'return', 'public', 'return']
+Found variables:['org', 'jabref', 'gui', 'preview', 'java', 'io', 'IOException', 'net', 'MalformedURLException', 'util', 'Objects', 'Optional', 'regex', 'Pattern', 'javafx', 'beans', 'InvalidationListener', 'Observable', 'value', 'ChangeListener', 'concurrent', 'Worker', 'print', 'PrinterJob', 'scene', 'control', 'ScrollPane', 'input', 'ClipboardContent', 'web', 'WebView', 'ClipBoardManager', 'DialogService', 'Globals', 'StateManager', 'desktop', 'JabRefDesktop', 'theme', 'ThemeManager', 'BackgroundTask', 'TaskExecutor', 'logic', 'exporter', 'ExporterFactory', 'l10n', 'Localization', 'PreviewLayout', 'search', 'SearchQuery', 'WebViewStore', 'model', 'database', 'BibDatabaseContext', 'entry', 'BibEntry', 'slf4j', 'Logger', 'LoggerFactory', 'w3c', 'dom', 'Document', 'Node', 'NodeList', 'events', 'EventTarget', 'html', 'HTMLAnchorElement', 'PreviewViewer', 'LOGGER', 'getLogger', 'String', 'JS_GET_SELECTION_HTML_SCRIPT', 'undefined', 'Text', 'JS_HIGHLIGHT_FUNCTION', 'UTF', 'text', 'javascript', 'object', 'function', 'use', 'strict', 'symbol', 'Cannot', 'call', 'a', 'as', 'getContexts', 'string', 'getIframeContents', 'iframe', 'inaccessible', 'isIframeBlank', 'about', 'blank', 'src', 'observeIframeLoad', 'load', 'onIframeReady', 'complete', 'waitForIframes', 'forEachIframe', 'createIterator', 'createInstanceOnIframe', 'compareNodeIframe', 'getIteratorNode', 'checkIframeFilter', 'handleOpenIframes', 'iterateThroughNodes', 'forEachNode', 'matches', 'partially', 'disabled', 'create', 'gm', 'i', 'sortByLength', 'escapeStr', '$', 'createSynonymsRegExp', 'processSynonyms', 'setupWildcardsRegExp', 'u0001', 'u0002', 'createWildcardsRegExp', 'withSpaces', 'S', 's', 'setupIgnoreJoinersRegExp', 'createJoinersRegExp', 'u00ad', 'u200b', 'u200c', 'u200d', 'createDiacriticsRegExp', 'A', 'c', 'C', 'd', 'D', 'e', 'E', 'I', 'l', 'L', 'n', 'N', 'o', 'O', 'r', 'R', 't', 'T', 'u', 'U', 'y', 'Y', 'z', 'Z', 'createMergedBlanksRegExp', 'createAccuracyRegExp', 'complementary', 'concat', 'ctx', 'ie', 'var', 'window', 'navigator', 'userAgent', 'indexOf', 'key', 'arguments', 'length', 'opt', 'log', 'debug', 'typeof', 'forEach', 'separateWordSearch', 'split', 'trim', 'push', 'keywords', 'sort', 'Number', 'parseFloat', 'Array', 'isArray', 'Object', 'prototype', 'toString', 'noMatch', 'start', 'callNoMatchOnInvalidRanges', 'end', 'valid', 'parseInt', 'isNumeric', 'JSON', 'stringify', 'substring', 'replace', 'g', 'iterator', 'NodeFilter', 'SHOW_TEXT', 'textContent', 'node', 'matchesExclude', 'parentNode', 'FILTER_REJECT', 'FILTER_ACCEPT', 'nodes', 'exclude', 'element', 'splitText', 'document', 'createElement', 'setAttribute', 'className', 'replaceChild', 'every', 'h', 'substr', 'f', 'wrapRangeInTextNode', 'previousSibling', 'wrapGroups', 'getTextNodes', 'null', 'exec', 'separateGroups', 'index', 'lastIndex', 'wrapRangeInMappedTextNode', 'checkWhitespaceRanges', 'createDocumentFragment', 'firstChild', 'appendChild', 'removeChild', 'normalizeTextNode', 'normalize', 'nodeType', 'nextSibling', 'nodeValue', 'arching', 'with', 'expression', 'acrossElements', 'ignoreGroups', 'filter', 'each', 'done', 'getSeparatedKeywords', 'checkRanges', 'wrapRangeFromIndex', 'moval', 'selector', 'SHOW_ELEMENT', 'unwrapMatches', 'set', '_opt', 'iframes', 'iframesTimeout', 'console', 'get', 'mark', 'markRegExp', 'markRanges', 'unmark', 'script', 'head', 'markInstance', 'Mark', 'getElementById', 'click', 'Invalid', 'URL', 'Input', 'Q', 'highlight', 'pattern', 'createJavaScriptRegex', 'UNESCAPED_FORWARD_SLASH', 'matcher', 'replaceAll', 'setLayout', 'newLayout', 'layout', 'update', 'setEntry', 'newEntry', 'ifPresent', 'oldEntry', 'observable', 'getObservables', 'removeListener', 'of', 'addListener', 'isEmpty', 'entryNumber', 'wrap', 'generatePreview', 'onRunning', 'setPreviewText', 'lang', 'getDisplayName', 'onSuccess', 'onFailure', 'exception', 'error', 'executeWith', 'taskExecutor', 'myText', 'previewView', 'getEngine', 'setJavaScriptEnabled', 'true', 'loadContent', 'setHvalue', 'job', 'createPrinterJob', 'proceed', 'dialogService', 'showPrintDialog', 'getJobSettings', 'setJobName', 'flatMap', 'getCitationKey', 'orElse', 'endJob', 'showErrorDialogAndWait', 'copyPreviewToClipBoard', 'getDocument', 'content', 'putString', 'getTextContent', 'putHtml', 'executeScript', 'clipBoardManager', 'setContent', 'copySelectionToClipBoard', 'getSelectionTextContent', 'getSelectionHtmlContent', 'Override', 'invalidated']
+Found node types:['CompilationUnitContext', 'PackageDeclarationContext', 'TERMINAL', 'QualifiedNameContext', 'ImportDeclarationContext', 'TypeDeclarationContext', 'ClassOrInterfaceModifierContext', 'ClassDeclarationContext', 'TypeSpecContext', 'ClassOrInterfaceTypeContext', 'TypeListContext', 'ClassBodyContext', 'ClassBodyDeclarationContext', 'ModifierContext', 'MemberDeclarationContext', 'FieldDeclarationContext', 'VariableDeclaratorsContext', 'VariableDeclaratorContext', 'VariableDeclaratorIdContext', 'VariableInitializerContext', 'ExpressionContext', 'PrimaryContext', 'ExpressionListContext', 'LiteralContext', 'ConstructorDeclarationContext', 'FormalParametersContext', 'FormalParameterListContext', 'ConstructorBodyContext', 'BlockContext', 'BlockStatementContext', 'StatementContext', 'StatementExpressionContext']
+
+Imported classes:['javafx.scene.control.ScrollPane', 'java.net.MalformedURLException', 'java.io.IOException', 'javafx.beans.Observable', 'javafx.print.PrinterJob', 'java.util.Optional', 'javafx.beans.value.ChangeListener', 'java.util.regex.Pattern', 'javafx.beans.InvalidationListener', 'javafx.scene.input.ClipboardContent', 'javafx.concurrent.Worker', 'java.util.Objects', 'javafx.scene.web.WebView']
+Package names:['java.util.regex', 'javafx.concurrent', 'java.util', 'javafx.print', 'javafx.scene.web', 'java.net', 'java.io', 'javafx.scene.input', 'javafx.scene.control', 'javafx.beans.value', 'javafx.beans']
+
+Could not retrieve documentation for org.jabref.logic.exporter.ExporterFactory
+
+
+Description for javafx.scene.control.ScrollPane:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/ScrollPane.html
+The ScrollPane class in JavaFX is a control that provides a scrolled and clipped viewport of its contents. It allows users to scroll the content either by panning or using scroll bars. The ScrollPane allows for customization of the scroll bar policy, which determines when the scroll bars are displayed. It also allows for setting the current, minimum, and maximum values for positioning the contents in the horizontal and vertical directions. The layout calculations of the ScrollPane are based on the layoutBounds of the scroll node, rather than the boundsInParent. The ScrollPane class sets focusTraversable to false. [[1]](https://www.student.unsw.edu.au/paraphrasing-summarising-and-quoting)
+Similarity Score: 0.9208
+Logic: Frameworks and patterns governing the organization and execution flow of software applications, including control structures and architectural paradigms.
+Label: User Interface 
+Reason: The descriptions provided for the `Worker` interface in JavaFX, the `WebView` class, the `Document` interface,
+the `NodeList` interface, and the `Node` interface all pertain to user interface components and frameworks within software
+applications. These descriptions discuss elements such as displaying web content, handling mouse and keyboard events, representing HTML
+or XML documents, and providing a scrolled, clipped viewport of contents, which are all integral to user
+interface development and interaction. Therefore, these descriptions align with the category of User Interface. 
+
+Could not retrieve documentation for org.jabref.gui.Globals
+Could not retrieve documentation for org.jabref.logic.search.SearchQuery
+Could not retrieve documentation for org.slf4j.LoggerFactory
+
+
+Description for org.w3c.dom.Document:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/org/w3c/dom/Document.html
+Summary:
+The `Document` interface in Java represents the entire HTML or XML document, serving as the root of the document tree and providing primary access to the document's data. It also contains factory methods for creating elements, text nodes, comments, and processing instructions, as these objects cannot exist outside the context of a `Document`. The `Node` objects created are associated with the `Document` through the ownerDocument attribute.
+
+This fits the category of a paraphrased summary as it captures the key points of the original description in a concise and accurate manner.
+Similarity Score: 0.8975
+Internationalization: Tools and frameworks enabling the adaptation of software applications to diverse linguistic, cultural, and regional contexts.
+Label: User Interface 
+Reason: The description of the `WebView` class in JavaFX focuses on its role in displaying web
+content, handling mouse and keyboard events, and emphasizing the importance of accessing it solely from the FX
+thread. These characteristics align with the functionalities and interactive elements typically associated with the User Interface category
+in software applications. Therefore, the `WebView` class in JavaFX fits the User Interface category. 
+
+
+
+Description for javafx.beans.InvalidationListener:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/beans/InvalidationListener.html
+The description provided explains the InvalidationListener interface in JavaFX 2.0, which is a functional interface used to notify when an Observable becomes invalid. It can be registered and unregistered with Observable.addListener(InvalidationListener) and Observable.removeListener(InvalidationListener) respectively. The same instance of InvalidationListener can be registered to listen to multiple Observables. For a detailed explanation of invalidation events and how they differ from change events, the documentation of ObservableValue should be referred to. This interface is used for handling invalidation events in JavaFX applications.
+Similarity Score: 0.9069
+Error Handling: Strategies and mechanisms designed to detect, respond to, and recover from errors or exceptional conditions within software systems.
+Label: User Interface 
+Reason: The description provided explains the `InvalidationListener` interface in JavaFX, which is used to notify when
+an `Observable` becomes invalid. This interface is closely related to the user interface in JavaFX, as it
+allows for monitoring and responding to changes in the UI components. The `InvalidationListener` can be registered and
+unregistered with `Observable.addListener(InvalidationListener)`, which is a common practice in user interface development to track changes and update
+the UI accordingly. Additionally, the `InvalidationListener` interface is part of the JavaFX library, which is primarily focused
+on creating visual and interactive elements for software applications [[1]]. 
+
+Could not retrieve documentation for org.jabref.gui.desktop.JabRefDesktop
+Could not retrieve documentation for org.jabref.gui.StateManager
+
+
+Description for javafx.beans.Observable:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/beans/Observable.html
+The provided description outlines all known subinterfaces and implementing classes of the Observable interface, which is an entity that wraps content and allows observation for invalidations. It may support lazy evaluation and should generate as few events as possible to avoid wasting time in event handlers. Implementations in this library mark themselves as invalid when the first invalidation event occurs and do not generate any more invalidation events until their value is recomputed and valid again. The Observable interface is part of JavaFX 2.0 and is related to ObservableValue, ObservableList, and ObservableMap [[1]](https://www.student.unsw.edu.au/paraphrasing-summarising-and-quoting).
+Similarity Score: 0.9229
+Event Handling: Mechanisms and components responsible for detecting, processing, and responding to events triggered within software applications.
+Label: Software Development and IT 
+Reason: The description provided is about the `Observable` interface in JavaFX, which is a key component
+of software development. It explains how the `Observable` interface allows for observing content for invalidations and supports
+lazy evaluation. This information is relevant to software development and falls under the category of Software Development
+and IT. 
+
+
+
+Description for org.w3c.dom.Node:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/org/w3c/dom/Node.html
+The Node interface is a primary datatype in the Document Object Model (DOM) and represents a single node in the document tree. It is used to navigate and manipulate XML and HTML documents. While all objects implementing the Node interface have methods for dealing with children, not all nodes may have children. The Node interface provides attributes such as nodeName, nodeValue, and attributes to access node information without casting down to specific derived interfaces. The values of these attributes vary depending on the node type, such as element nodes, text nodes, comment nodes, etc. [[1]](https://www.student.unsw.edu.au/paraphrasing-summarising-and-quoting)
+Similarity Score: 0.9341
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+Label: User Interface 
+Reason: The descriptions provided for the `Worker` interface in JavaFX, the WebView class, the Document interface,
+the Objects class, the NodeList interface, and the Node interface all pertain to the visual and interactive
+elements of software applications, including the handling of web content, document representation, and manipulation of the document
+tree. These descriptions align with the category of User Interface, which encompasses components and frameworks defining the
+visual and interactive elements of software applications, making it the most suitable label for these descriptions. 
+
+
+
+Description for java.util.Optional:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html
+The provided description is a concise overview of the Optional class in Java. It explains that Optional is a container object that may or may not contain a non-null value. It provides methods such as isPresent() to check if a value is present, get() to retrieve the value, orElse() to return a default value if the value is not present, and ifPresent() to execute a block of code if the value is present. It also emphasizes that Optional is a value-based class and warns against using identity-sensitive operations on instances of Optional due to potential unpredictable results [[1]](https://www.student.unsw.edu.au/paraphrasing-summarising-and-quoting).
+Similarity Score: 0.8922
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+Label: Language 
+Reason: The description of the `Optional<T>` class in Java outlines its role as a container object
+that may or may not contain a non-null value, providing methods such as `isPresent()` and `get()` to
+check and retrieve the value, respectively. Additionally, it mentions the availability of additional methods like `orElse()` and
+`ifPresent()` depending on the presence or absence of the contained value. This aligns with the category of
+Language, which encompasses features and capabilities inherent to programming languages, including syntax, semantics, and data type conversions.
+The description focuses on the functionality and usage of a specific class within the Java programming language,
+making it a suitable fit for the Language category. 
+
+Could not retrieve documentation for org.jabref.gui.DialogService
+Could not retrieve documentation for org.jabref.model.entry.BibEntry
+
+
+Description for javafx.scene.input.ClipboardContent:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/scene/input/ClipboardContent.html
+The description outlines a Java class named `ClipboardContent` that extends `HashMap` and holds multiple data in various formats for Clipboard use in JavaFX, introduced in JavaFX 2.0.
+Similarity Score: 0.8006
+Search: APIs and tools facilitating the retrieval and manipulation of information from various data sources, particularly for web-based searching and indexing.
+Label: User Interface 
+Reason: The description of the `ClipboardContent` class in JavaFX mentions that it is a data container
+for clipboard data and extends the `HashMap` class. It also states that it can hold multiple data
+in various formats. These characteristics align with the functionality of a user interface component, as it is
+responsible for defining the visual and interactive elements of software applications, including forms, screens, and graphical controls.
+Therefore, the `ClipboardContent` class in JavaFX can be categorized under the User Interface label. [[1]] 
+
+Could not retrieve documentation for org.w3c.dom.html.HTMLAnchorElement
+
+
+Description for javafx.concurrent.Worker:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/concurrent/Worker.html
+The description outlines the Worker interface in JavaFX, which is primarily implemented by both Task and Service classes. It defines the life cycle of a Worker, including its states (READY, SCHEDULED, RUNNING, SUCCEEDED, FAILED, CANCELLED), and the transitions between these states. It also explains how the progress of a Worker can be monitored through properties such as totalWork, workDone, and progress, and clarifies the valid values for these properties in different states. Additionally, it specifies the conditions under which a Worker can be canceled and the implications of cancellation. The Worker interface is designed to provide a common API for background tasks in JavaFX applications, making it easier for libraries and frameworks to create workers that integrate well with user interfaces. The Worker interface in JavaFX, implemented by Task and Service classes, defines the life cycle of a background task, including its states, progress monitoring, and cancellation conditions, to facilitate the development of user interface-friendly workers.
+Similarity Score: 0.9415
+Internationalization: Tools and frameworks enabling the adaptation of software applications to diverse linguistic, cultural, and regional contexts.
+Label: User Interface 
+Reason: The description provided is about the `Worker` interface in JavaFX, which is responsible for performing
+work in background threads and has a well-defined lifecycle. It transitions through different states and provides properties
+to observe its state and progress. The `Worker` interface is a key component in developing user interfaces
+with libraries and frameworks(https://www.student.unsw.edu.au/paraphrasing-summarising-and-quoting). 
+
+Could not retrieve documentation for org.jabref.logic.util.WebViewStore
+Could not retrieve documentation for org.jabref.logic.l10n.Localization
+
+
+Description for java.net.MalformedURLException:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/net/MalformedURLException.html
+This is a Java class named MalformedURLException that extends IOException. It is used to indicate when a malformed URL is encountered, due to an issue with the protocol or parsing of the URL string. It has been part of JDK since version 1.0.
+Similarity Score: 0.8324
+Application: Software components designed by third parties or as plugins to enhance specific functionalities within a system.
+Label: Error Handling 
+Reason: The given description is about the Java class `MalformedURLException`, which extends `IOException` and is thrown
+to indicate that a malformed URL has occurred. This class is specifically designed to handle errors related
+to malformed URLs, indicating that no legal protocol could be found or that the string could not
+be parsed. It falls under the category of error handling as it is a specific exception class
+used to handle errors or exceptional conditions within software systems. The class was introduced in JDK1.0. [[1]]
+
+
+
+
+Description for java.io.IOException:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html
+The description provided is about the class `IOException` in Java, which is a subclass of the `Exception` class. It signals that an I/O exception has occurred during a failed or interrupted I/O operation. The class is serializable and has several direct known subclasses, such as `FileNotFoundException`, `SocketException`, and `UnsupportedEncodingException`.
+Similarity Score: 0.7798
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+Label: Language 
+Reason: The descriptions provided focus on the Java language and its associated classes, such as `DataFlavor`,
+`ClipboardContent`, and `IOException`. These descriptions emphasize the features, functionalities, and usage of these language-specific classes within the
+Java programming language, aligning with the category of Language in the given options. [[1]](https://www.student.unsw.edu.au/paraphrasing-summarising-and-quoting) [[2]](https://research.wou.edu/c.php?g=1046948&p=7596964) 
+
+Could not retrieve documentation for org.jabref.gui.util.BackgroundTask
+Could not retrieve documentation for org.jabref.gui.ClipBoardManager
+Could not retrieve documentation for org.jabref.gui.util.TaskExecutor
+Could not retrieve documentation for org.jabref.model.database.BibDatabaseContext
+Could not retrieve documentation for org.jabref.logic.preview.PreviewLayout
+
+
+Description for java.util.Objects:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/util/Objects.html
+The `Objects` class is a final class in Java that provides static utility methods for working with objects. It includes null-safe or null-tolerant methods for computing the hash code of an object, returning a string for an object, and comparing two objects. This class has been available since Java version 1.7.
+Similarity Score: 0.8958
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+Label: User Interface 
+Reason: The descriptions provided for the `Worker` interface in JavaFX, the `WebView` class, and the `Document`
+interface in Java all pertain to user interface components within the JavaFX framework. These descriptions focus on
+the functionality and behavior of these classes in the context of creating and managing user interfaces, including
+background thread work, web content display, and document structure representation. Therefore, the most fitting category for these
+descriptions is User Interface. 
+
+
+
+Description for org.w3c.dom.events.EventTarget:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/org/w3c/dom/events/EventTarget.html
+The EventTarget interface is implemented by all nodes in an implementation that supports the DOM Event Model. It allows registration and removal of EventListeners on an EventTarget and dispatch of events to that EventTarget. This interface can be obtained by using binding-specific casting methods on an instance of the Node interface. It is part of the Document Object Model (DOM) Level 2 Events Specification.
+Similarity Score: 0.9008
+Logic: Frameworks and patterns governing the organization and execution flow of software applications, including control structures and architectural paradigms.
+Label: Event Handling 
+Reason: The description provided mentions that the EventTarget interface allows registration and removal of EventListeners on
+an EventTarget and dispatch of events to that EventTarget. This aligns with the concept of event handling,
+which involves detecting, processing, and responding to events triggered within software applications. Therefore, the description fits the
+Event Handling category. 
+
+
+Description for javafx.scene.web.WebView:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/scene/web/WebView.html
+The description provided is about the WebView class in JavaFX, which is a Node that manages a WebEngine and displays its content. The associated WebEngine is created automatically at construction time and cannot be changed afterwards. WebView handles mouse and some keyboard events, and manages scrolling automatically, so there's no need to put it into a ScrollPane. WebView objects must be created and accessed solely from the FX thread. This class has been available since JavaFX 2.0.
+Similarity Score: 0.8673
+Parser: Components and algorithms responsible for analyzing and interpreting data or code structures, often breaking them down into identifiable components for further processing.
+Label: User Interface 
+Reason: The description of the WebView class in JavaFX highlights its role in displaying web content
+and handling user interactions such as mouse and keyboard events. This aligns with the functionality of a
+user interface component, which defines the visual and interactive elements of software applications, including forms, screens, and
+graphical controls. Additionally, the emphasis on displaying web content and handling events positions the WebView class within
+the realm of user interface development, making it a fitting match for the User Interface category. 
+
+
+
+Description for javafx.print.PrinterJob:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/print/PrinterJob.html
+The `PrinterJob` class in JavaFX is used for printing in the JavaFX scenegraph. It provides functionalities such as printer discovery, job creation, job configuration based on printer capabilities, page setup, and rendering of a node hierarchy to a page. A simple example of using `PrinterJob` to print a single node is shown, where the node is created and a printer job is created. If the job is not null, the `printPage` method is called to print the node, and if successful, the `endJob` method is called to end the job. It is important to note that the node being printed should not be updated during the printing process to avoid rendering issues. It is recommended to perform printing on a separate thread to minimize the impact on the application's UI responsiveness. The `PrinterJob` class was introduced in JavaFX 8.0 [[1]](https://www.student.unsw.edu.au/paraphrasing-summarising-and-quoting).
+Similarity Score: 0.8724
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+Label: User Interface 
+Reason: The description of the `PrinterJob` class in JavaFX pertains to the management and rendering of
+visual content within the JavaFX scenegraph, specifically focusing on functionalities related to printing and page setup. These
+features directly relate to the visual and interactive elements of software applications, aligning with the category of
+User Interface within the provided options. Additionally, the emphasis on avoiding rendering issues and minimizing impact on
+UI responsiveness further supports its classification under User Interface. 
+
+
+Description for javafx.beans.value.ChangeListener:
+Documentation URL: https://docs.oracle.com/javase/8/javafx/api/javafx/beans/value/ChangeListener.html
+A `ChangeListener` is a functional interface in JavaFX that is notified whenever the value of an `ObservableValue` changes. It can be registered and unregistered with `ObservableValue.addListener(ChangeListener)` and `ObservableValue.removeListener(ChangeListener)` respectively. The same instance of `ChangeListener` can be registered to listen to multiple `ObservableValues`. This interface is part of the JavaFX 2.0 framework and is used to handle change events in observable values.
+Similarity Score: 0.7916
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+Label: User Interface 
+Reason: The description of the `ChangeListener` in JavaFX pertains to the functionality and interaction of user
+interface components. The `ChangeListener` is used to notify when the value of an `ObservableValue` changes, which directly
+relates to user interaction and interface updates. Additionally, the ability to register and unregister the `ChangeListener` with
+`ObservableValue.addListener` and `ObservableValue.removeListener` respectively, aligns with the management of user interface elements. Furthermore, the mention of the
+same instance of `ChangeListener` being registered to listen to multiple `ObservableValues` underscores its role in managing user
+interface interactions across different elements. Lastly, the fact that this interface was introduced in JavaFX 2.0 further
+solidifies its relevance to user interface development within the JavaFX framework [[1]](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label). 
+
+
+
+Description for java.util.regex.Pattern:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html
+This description provides an overview of the Java `Pattern` class, which represents a compiled representation of a regular expression. It explains how to compile a regular expression into an instance of the `Pattern` class and use it to create a `Matcher` object for matching character sequences against the regular expression. It also details the various constructs and metacharacters used in regular expressions, including character classes, line terminators, quantifiers, logical operators, back references, and Unicode support. Additionally, it compares the functionality of the `Pattern` class to Perl and provides information on the behavior of regular expression constructs. The class has been available since Java 1.4 and is related to string manipulation methods like `String.split()` [[1]].
+Similarity Score: 0.905
+Internationalization: Tools and frameworks enabling the adaptation of software applications to diverse linguistic, cultural, and regional contexts.
+Label: Language 
+Reason: The description provided details the functionality and capabilities of the `Pattern` class in Java, which
+is a compiled representation of a regular expression used to match character sequences against a specified regular
+expression. It outlines the methods for matching, character classes, boundary matchers, quantifiers, logical operators, and more, emphasizing
+its role in handling regular expressions and character matching within Java programming. Additionally, it specifies the differences
+between the `Pattern` class in Java and regular expressions in Perl, further highlighting its language-specific nature and
+usage within programming contexts [[1]]. 
+
+
+
+Description for org.w3c.dom.NodeList:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/org/w3c/dom/NodeList.html
+The NodeList interface represents an ordered collection of nodes in the Document Object Model (DOM) and does not specify how the collection is implemented. NodeList objects in the DOM are live, and their items can be accessed by an integral index, starting from 0. It is part of the Document Object Model (DOM) Level 3 Core Specification. This summary captures the key points about the NodeList interface and its functionality without unnecessary details.
+Similarity Score: 0.924
+Logic: Frameworks and patterns governing the organization and execution flow of software applications, including control structures and architectural paradigms.
+- W3C DOM Level 3 Core Specification: The NodeList interface is defined in the W3C DOM
+Level 3 Core Specification. It represents an ordered collection of nodes and provides methods for accessing and
+manipulating the nodes in the list. The NodeList is live, meaning that it is automatically updated to
+reflect any changes made to the underlying document. The nodes in the NodeList can be accessed using
+an index starting from 0 [[1]](https://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-536297177). Based on the provided description, the object fits the category of
+Data Structure. The NodeList interface represents an ordered collection of nodes, which is a fundamental concept in
+data structures. It provides methods for accessing and manipulating the nodes in the list, similar to how
+data structures govern the organization, storage, and manipulation of data. 
+
+Could not retrieve documentation for org.jabref.gui.theme.ThemeManager
+Could not retrieve documentation for org.slf4j.Logger
+Classes to Methods mapping:{'ClipboardContent': ['putHtml', 'putString']}
+javafx.scene.input.ClipboardContentFetching documentation from: https://docs.oracle.com/javafx/2/api/javafx/scene/input/ClipboardContent.htmlClass: ClipboardContent, Method: putHtml, Description: Puts an HTML text String onto the Clipboard.Class: ClipboardContent, Method: putString, Description: Puts a plain text String onto the Clipboard.

@@ -1,0 +1,55 @@
+Found reserved words:['package', 'import', 'import', 'import', 'import', 'import', 'import', 'static', 'public', 'class', 'private', 'final', 'static', 'private', 'final', 'static', 'private', 'final', 'static', 'private', 'final', 'static', 'private', 'final', 'static', 'private', 'final', 'static', 'private', 'final', 'static', 'private', 'void', 'new', 'new', 'private', 'void', 'new', 'new', 'public', 'void', 'public', 'void', 'new', 'new', 'public', 'void', 'throws', 'class', 'new', 'new', 'add', 'public', 'void', 'throws', 'class', 'new', 'new', 'add', 'public', 'void', 'throws', 'class', 'new', 'new', 'add', 'public', 'void', 'throws', 'class', 'class', 'class', 'new', 'new', 'public', 'void', 'throws', 'class', 'new', 'new', 'add', 'public', 'void', 'throws', 'class', 'class', 'new', 'new', 'public', 'void', 'throws', 'class', 'new', 'new', 'public', 'void', 'throws', 'class', 'new', 'new', 'add', 'public', 'void', 'new', 'new', 'add', 'public', 'void', 'throws', 'class', 'class', 'class', 'new', 'new', 'add']
+Found variables:['org', 'jabref', 'logic', 'texparser', 'model', 'LatexParserResult', 'junit', 'jupiter', 'api', 'Test', 'java', 'net', 'URISyntaxException', 'nio', 'file', 'Path', 'util', 'Arrays', 'Assertions', 'assertEquals', 'DefaultTexParserTest', 'String', 'DARWIN', 'EINSTEIN', 'NEWTON', 'EINSTEIN_A', 'EINSTEIN_C', 'UNRESOLVED', 'UNKNOWN', 'testMatchCite', 'key', 'citeString', 'latexParserResult', 'DefaultLatexParser', 'parse', 'expectedParserResult', 'addKey', 'of', 'length', 'testNonMatchCite', 'testCiteCommands', 'testTwoCitationsSameLine', 'testFileEncodingUtf8', 'texFile', 'getResource', 'toURI', 'parserResult', 'getFileList', 'testFileEncodingIso88591', 'testFileEncodingIso885915', 'testFileEncodingForThreeFiles', 'texFile2', 'texFile3', 'asList', 'addAll', 'testSingleFile', 'addBibFile', 'getParent', 'resolve', 'testTwoFiles', 'testDuplicateFiles', 'testUnknownKey', 'testFileNotFound', 'testNestedFiles', 'getNestedFiles']
+Found node types:['CompilationUnitContext', 'PackageDeclarationContext', 'TERMINAL', 'QualifiedNameContext', 'ImportDeclarationContext', 'TypeDeclarationContext', 'ClassOrInterfaceModifierContext', 'ClassDeclarationContext', 'ClassBodyContext', 'ClassBodyDeclarationContext', 'ModifierContext', 'MemberDeclarationContext', 'FieldDeclarationContext', 'TypeSpecContext', 'ClassOrInterfaceTypeContext', 'VariableDeclaratorsContext', 'VariableDeclaratorContext', 'VariableDeclaratorIdContext', 'VariableInitializerContext', 'ExpressionContext', 'PrimaryContext', 'LiteralContext', 'MethodDeclarationContext', 'FormalParametersContext', 'FormalParameterListContext', 'FormalParameterContext', 'MethodBodyContext', 'BlockContext', 'BlockStatementContext', 'LocalVariableDeclarationStatementContext', 'LocalVariableDeclarationContext', 'CreatorContext', 'CreatedNameContext', 'ClassCreatorRestContext', 'ArgumentsContext', 'ExpressionListContext', 'StatementContext', 'StatementExpressionContext', 'AnnotationContext', 'AnnotationNameContext', 'QualifiedNameListContext']
+
+Imported classes:['java.net.URISyntaxException', 'java.nio.file.Path', 'java.util.Arrays']
+Package names:['java.net', 'java.nio.file', 'java.util']
+
+Could not retrieve documentation for org.jabref.model.texparser.LatexParserResult
+
+
+Description for java.util.Arrays:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html
+The Arrays class in Java is a part of the Java Collections Framework and provides various methods for manipulating arrays, such as sorting and searching. It also includes a static factory that allows arrays to be viewed as lists. The methods in this class throw a NullPointerException if the specified array reference is null, except where noted. The documentation for the methods contains implementation notes, which should be regarded as additional information rather than part of the specification.
+Similarity Score: 0.8895
+Application: Software components designed by third parties or as plugins to enhance specific functionalities within a system.
+Label: Data Structure 
+Reason: The description provided mentions that the Arrays class in Java is a part of the
+Java Collections Framework and provides various methods for manipulating arrays, such as sorting and searching. It also
+includes a static factory that allows arrays to be viewed as lists. These functionalities align with the
+concept of data structures, which govern the organization, storage, and manipulation of data, including collections and lists
+[[1]](https://www.epa.gov/pesticide-labels/pesticide-labeling-questions-answers). 
+
+
+Description for java.net.URISyntaxException:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/net/URISyntaxException.html
+This is a Java class called URISyntaxException that extends Exception and is used to throw a checked exception when a string cannot be parsed as a URI reference. It has been available since Java 1.4.
+Similarity Score: 0.803
+Application: Software components designed by third parties or as plugins to enhance specific functionalities within a system.
+Label: Input/Output 
+Reason: The given description is about the Java class `URISyntaxException`, which is a checked exception used
+to signal a failure in parsing a string as a URI reference. This class is related to
+handling input/output operations and specifically deals with parsing URI references. It falls under the Input/Output category as
+it is part of the Java API for handling input/output functionalities. 
+
+Could not retrieve documentation for org.junit.jupiter.api.Test
+Could not retrieve documentation for static org.junit.jupiter.api.Assertions.assertEquals
+
+
+Description for java.nio.file.Path:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/nio/file/Path.html
+Summary
+The `Path` interface in Java represents a hierarchical file path and provides methods for accessing and manipulating file paths. It extends `Comparable<Path>`, `Iterable<Path>`, and `Watchable` interfaces, and allows for operations such as resolving paths, comparing paths, and accessing file components. The interface also supports interoperability with the `Files` class and `java.io.File` class, and is designed for use by developers creating custom file system implementations.
+
+#### Explanation
+The `Path` interface in Java is designed to represent file paths in a hierarchical manner and provides various methods for working with file paths. It extends several other interfaces and allows for operations such as resolving paths, comparing paths, and accessing file components. Additionally, it supports interoperability with the `Files` class and `java.io.File` class, and is specifically intended for use by developers creating custom file system implementations.
+Similarity Score: 0.8786
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+Label: Input/Output 
+Reason: The description of the `Path` interface in Java indicates that it is used to locate
+a file in a file system, access path components, resolve and combine paths, and construct relative paths.
+It also mentions that the `Path` interface can be used with the `Files` class for file operations.
+These functionalities are closely related to input/output operations, as they involve reading from and writing to various
+data sources and destinations. Therefore, the `Path` interface falls under the Input/Output category. 
+
+Classes to Methods mapping:{}

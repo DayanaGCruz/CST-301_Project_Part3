@@ -1,0 +1,43 @@
+Found reserved words:['package', 'import', 'import', 'import', 'import', 'import', 'public', 'class', 'private', 'static', 'final', 'private', 'static', 'final', 'public', 'static', 'return', 'new', 'public', 'static', 'return', 'public', 'static', 'return', 'public', 'static', 'return', 'public', 'static', 'return', 'public', 'static', 'new', 'return', 'new', 'public', 'static', 'return', 'new', 'public', 'static', 'return', 'new', 'public', 'static', 'return', 'public', 'static', 'return', 'new', 'public', 'static', 'return', 'public', 'static', 'return', 'public', 'static', 'boolean', 'return', 'public', 'static', 'return', 'public', 'static', 'class', 'new', 'add', 'add', 'add', 'return', 'public', 'static', 'class', 'new', 'add', 'return', 'public', 'static', 'return', 'public', 'static', 'return', 'private', 'static', 'return', 'private', 'static', 'new', 'class', 'class', 'class', 'class', 'class', 'class', 'return', 'public', 'static', 'new', 'class', 'return', 'public', 'static', 'boolean', 'final', 'return', 'instanceof']
+Found variables:['org', 'jabref', 'model', 'entry', 'field', 'strings', 'StringUtil', 'util', 'OptionalUtil', 'java', 'function', 'Predicate', 'stream', 'Collectors', 'FieldFactory', 'String', 'FIELD_OR_SEPARATOR', 'DELIMITER', 'serializeOrFields', 'Field', 'fields', 'OrFields', 'map', 'getName', 'collect', 'joining', 'serializeOrFieldsList', 'Set', 'List', 'getNotTextFieldNames', 'Arrays', 'asList', 'StandardField', 'DOI', 'FILE', 'URL', 'URI', 'ISBN', 'ISSN', 'MONTH', 'DATE', 'YEAR', 'getIdentifierFieldNames', 'EPRINT', 'PMID', 'parseOrFields', 'fieldNames', 'split', 'filter', 'isNotBlank', 'parseField', 'toCollection', 'LinkedHashSet', 'parseOrFieldsList', 'parseFieldList', 'serializeFieldsList', 'Collection', 'T', 'type', 'fieldName', 'orElse', 'InternalField', 'fromName', 'SpecialField', 'IEEEField', 'BiblatexSoftwareField', 'BiblatexApaField', 'UnknownField', 'null', 'getKeyFields', 'getFieldsFiltered', 'getProperties', 'contains', 'FieldProperty', 'SINGLE_ENTRY_LINK', 'MULTIPLE_ENTRY_LINK', 'isInternalField', 'startsWith', 'getJournalNameFields', 'JOURNAL_NAME', 'getCommonFields', 'EnumSet', 'allFields', 'allOf', 'publicAndInternalFields', 'size', 'INTERNAL_ALL_FIELD', 'INTERNAL_ALL_TEXT_FIELDS_FIELD', 'KEY_FIELD', 'addAll', 'getStandardFieldsWithCitationKey', 'standardFieldsWithBibtexKey', 'getBookNameFields', 'BOOK_NAME', 'getPersonNameFields', 'PERSON_NAMES', 'selector', 'getAllFields', 'toSet', 'HashSet', 'getDefaultGeneralFields', 'defaultGeneralFields', 'ArrayList', 'CROSSREF', 'KEYWORDS', 'GROUPS', 'OWNER', 'TIMESTAMP', 'isMultiLineField', 'nonWrappableFields', 'equals', 'ABSTRACT', 'COMMENT', 'REVIEW']
+Found node types:['CompilationUnitContext', 'PackageDeclarationContext', 'TERMINAL', 'QualifiedNameContext', 'ImportDeclarationContext', 'TypeDeclarationContext', 'ClassOrInterfaceModifierContext', 'ClassDeclarationContext', 'ClassBodyContext', 'ClassBodyDeclarationContext', 'ModifierContext', 'MemberDeclarationContext', 'FieldDeclarationContext', 'TypeSpecContext', 'ClassOrInterfaceTypeContext', 'VariableDeclaratorsContext', 'VariableDeclaratorContext', 'VariableDeclaratorIdContext', 'VariableInitializerContext', 'ExpressionContext', 'PrimaryContext', 'LiteralContext', 'MethodDeclarationContext', 'FormalParametersContext', 'FormalParameterListContext', 'LastFormalParameterContext', 'MethodBodyContext', 'BlockContext', 'BlockStatementContext', 'StatementContext', 'ExpressionListContext', 'CreatorContext', 'CreatedNameContext', 'ClassCreatorRestContext', 'ArgumentsContext', 'FormalParameterContext', 'StatementExpressionContext', 'TypeArgumentsContext', 'TypeArgumentContext', 'NonWildcardTypeArgumentsContext', 'TypeListContext', 'ExplicitGenericInvocationSuffixContext', 'GenericMethodDeclarationContext', 'TypeParametersContext', 'TypeParameterContext', 'ExplicitGenericInvocationContext', 'PrimitiveTypeContext', 'LocalVariableDeclarationStatementContext', 'LocalVariableDeclarationContext', 'TypeArgumentsOrDiamondContext', 'VariableModifierContext']
+
+Imported classes:['java.util.*', 'java.util.function.Predicate', 'java.util.stream.Collectors']
+Package names:['java.util.function', 'java.util', 'java.util.stream']
+
+Could not retrieve documentation for org.jabref.model.strings.StringUtil
+
+
+Description for java.util.function.Predicate:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html
+The description is about the functional interface `Predicate<T>`, which represents a boolean-valued function of one argument. It is a functional interface that can be used as the assignment target for a lambda expression or method reference. The functional method of this interface is `test(Object)`. The `Predicate<T>` interface has been available since Java version 1.8.
+Similarity Score: 0.8554
+Interpreter: Features and functionalities associated with interpreting and executing code or scripts within a software environment.
+Label: User Interface 
+Reason: The description provided pertains to the functional interface `Predicate<T>` in Java, which is used as
+the assignment target for lambda expressions or method references. This interface is closely associated with user interface
+components, as it represents a boolean-valued function of one argument and is utilized for distinct functions within
+software applications. Additionally, the `Predicate<T>` interface is essential for defining the visual and interactive elements of software
+applications, aligning with the category of User Interface. Therefore, based on the nature of the functional interface
+and its relevance to user interface components, the most fitting label for the given description is User
+Interface. 
+Could not retrieve documentation for org.jabref.model.util.OptionalUtil
+
+
+Description for java.util.stream.Collectors:
+Documentation URL: https://docs.oracle.com/javase/8/docs/api/java/util/stream/Collectors.html
+The description provides an overview of the `Collectors` class in Java, which is part of the Java Stream API. It states that the class implements various useful reduction operations, such as accumulating elements into collections, summarizing elements according to various criteria, and more. It also provides examples of using predefined collectors to perform common mutable reduction tasks, such as accumulating names into a list or a TreeSet, converting elements to strings and concatenating them, computing the sum of salaries, grouping employees by department, partitioning students into passing and failing, and more. The `Collectors` class has been available since Java 1.8 [[1]](https://www.student.unsw.edu.au/paraphrasing-summarising-and-quoting).
+Similarity Score: 0.9413
+Internationalization: Tools and frameworks enabling the adaptation of software applications to diverse linguistic, cultural, and regional contexts.
+The description provided is about the `Collectors` class in Java, which is part of the Java
+Stream API. This class implements various useful reduction operations, such as accumulating elements into collections, summarizing elements
+according to various criteria, and more. It also provides examples of using predefined collectors to perform common
+mutable reduction tasks, such as accumulating names into a list or a TreeSet, converting elements to strings
+and concatenating them, computing the sum of salaries, grouping employees by department, partitioning students into passing and
+failing, and more. The `Collectors` class has been available since Java 1.8 [[1]](https://www.student.unsw.edu.au/paraphrasing-summarising-and-quoting). Label: Software Development and
+IT 
+Reason: The description focuses on a specific class in Java that is part of the Java
+Stream API, which is commonly used in software development. It discusses the functionality and usage of the
+`Collectors` class, which is relevant to developers working on software development projects. 
+Could not retrieve documentation for java.util.*
+Classes to Methods mapping:{}
